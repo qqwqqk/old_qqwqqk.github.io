@@ -1,0 +1,80 @@
+﻿body { 
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100%;
+    background-image:url('../images/background2.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* 基本框架 */
+#base_show{
+    background-color:white;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+}
+/* 展示框架窗口 */
+#site_show{
+    background-color:red;
+    width: 560px;
+    height: 420px;
+    margin-left: 20px;
+    margin-top:20px;
+}
+/* 信息展示窗口 */
+#informations{
+    background-color:blue;
+    width: 180px;
+    height: 420px;
+    float:right;
+    margin-right: 20px;
+    margin-top:20px;
+}
+#user_name{
+    text-align:center;
+}
+.user_via_show{
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    border: none;
+    margin: 30px;
+}
+/* 选择列表展示 */
+#site_list{
+    background-color:green;
+    width: 760px;
+    height: 120px;
+    position: absolute;
+    border: 1px solid black;
+    margin: 20px 20px 20px 20px;
+}
+#table_list{border:none;}
+#move_left{
+    height:80px;
+    width:16px;
+    background-color:silver;
+    margin:20px 2px 20px 2px;
+}
+#move_right{
+    height:80px;
+    width:16px;
+    background-color:silver;
+    margin:20px 2px 20px 2px;
+}
+.move_list{
+    height:120px;
+    width:20px;
+    background-color:gray;
+}
+.blank_list{
+    height:120px;
+    width:8px;
+    background-color:white;
+}
+.show_list{
+    height:120px;
+    width:160px;
+    background-color:yellow;
+}

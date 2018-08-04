@@ -1,45 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
+ï»¿<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Hello Kay !</title>
-    <link href="favicon.ico" mce_href="favicon.ico" rel="bookmark" type="image/x-icon" />
-    <link href="favicon.ico" mce_href="favicon.ico" rel="icon" type="image/x-icon" />
-    <link href="favicon.ico" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="animated_favicon.gif" rel="icon" type="image/gif">
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <script type="text/javascript" src="js/music.js"></script>
+    <meta charset="utf-8">
+    <title>äº”æœˆé’¦é“­</title>
+    <script src="script/main.js" type="text/javascript"></script>
+    <link href="style/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <!-- Ìí¼Ó±³¾°ÒôÀÖ -->
-    <div class="musicDiv">
-        <audio id="music" src="http://sc1.111ttt.com/2016/1/12/10/205100120121.mp3" autoplay="autoplay" loop="loop"></audio>
-    </div>
-    <!-- ÕýÎÄ -->
-    <div class="content">
-        <!-- Í·Ïñ -->
-        <a class="avatar" id="aTitle" href="#" title="ÔÝÍ£ÒôÀÖ" onclick="playPause()">
-            <img src="images/head02.jpg" alt="Í·Ïñ">
-        </a>
-        <!-- ÎÄ×Ö¼ò½é -->
-        <div class="username">Mister Kay</div>
-        <div class="desc">Ç°¶Ë¿ª·¢ ÒÆ¶¯¶Ë¿ª·¢ ÐÂÃ½ÌåÔËÓª</div>
-        <!-- Íâ²¿Á´½Ó -->
-        <div class="social">
-            <a title="Ö÷Ò³" href="https://github.com/fifteen718" target="_blank">
-                <span class="iconfont icon-home"></span>
+    <form id="base_show">
+        <iframe id="site_show" frameborder="0"></iframe>
+
+        <div id="informations">
+            <a id="user_via" href="#" title="user_via">
+                <img src="images/usericon1.jpg" alt="usericon1" class="user_via_show">
             </a>
-            <a title="²©¿Í" href="http://blog.csdn.net/fifteen718" target="_blank">
-                <span class="iconfont icon-blog"></span>
-            </a>
-            <a title="Î¢²©" href="http://weibo.com/yekaikai" target="_blank">
-                <span class="iconfont icon-weibo"></span>
-            </a>
-            <a title="ÉãÓ°" href="html/photo.html" target="_blank">
-                <span class="iconfont icon-photo"></span>
-            </a>
+            <div id="user_name">
+                <h3>äº”æœˆé’¦é“­</h3>
+            </div>
         </div>
-    </div>
+
+        <div id="site_list">
+            <table id="table_list">
+                <tr>
+                    <td class="move_list">
+                        <input type="button" id="move_left">
+                    </td>
+                    <td class="blank_list"></td>
+                    <td class="show_list"></td>
+                    <td class="blank_list"></td>
+                    <td class="show_list"></td>
+                    <td class="blank_list"></td>
+                    <td class="show_list"></td>
+                    <td class="blank_list"></td>
+                    <td class="show_list"></td>
+                    <td class="blank_list"></td>
+                    <td class="move_list">
+                        <input type="button" id="move_right">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
 </body>
 </html>
-
