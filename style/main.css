@@ -21,7 +21,8 @@
 #move_left{ height:120px; width:40px; background:url("../images/left.png"); border: none; margin-left: 20px; margin-right: 8px;}
 #move_right{ height:120px; width:40px; background:url("../images/right.png"); border: none; margin-left: 8px; margin-right: 20px;}
 .blank_list{ height:120px; width:8px; background-color:white;}
-.show_list_header{height:20px; width:150px; text-align: center; background-color:cornflowerblue; border: none; margin-left: 4px; margin-right: 4px;}
-.show_list_content{height:100px; width:150px; background-color:deepskyblue; margin-left: 4px; margin-right: 4px;}
+.show_list_box{height:100px; width:150px; margin-left: 4px; margin-right: 4px;}
+.show_list_header{height:20px; width:150px; text-align: center; background-color:cornflowerblue; border: none;}
+.show_list_content{height:100px; width:150px; text-align: center; background-color:deepskyblue; border: none;}
 /* 尾部信息格式 */
 #footer_css{ width: 800px; height: 80px; margin: auto;}
