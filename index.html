@@ -9,7 +9,7 @@
 <body>
 <header id="header_css"></header>
 <form id="base_show">
-    <iframe id="site_show" frameborder="0"></iframe>
+    <iframe id="site_show" name="site_show" src="welcome.html" frameborder="0"></iframe>
 
     <div id="informations">
         <div id="user_info">
@@ -21,30 +21,33 @@
             </div>
         </div>
         <div id="wind_info" class="user_link_show">
-            <textarea class="abstract_show" > </textarea><br/>
-            <input type="button" id="enter" value="Enter">
+            <textarea class="abstract_show" >故国空余恨 旧王泪无痕</textarea><br/>
+            <button id="enter" value="Enter" onclick=""></button>
         </div>
-
     </div>
 
-    <div id="site_list">
-        <table id="table_list">
+    <div>
+        <input type="hidden" id="list_first" value=""><input type="hidden" id="list_last" value="">
+        <table>
             <tr>
-                <td class="move_list">
-                    <input type="button" id="move_left">
+                <td><button id="move_left" onclick="MoveLeft()"></button></td>
+                <td>
+                    <input class="show_list_header" id="show_list_header1" value="" readonly>
+                    <a id="show_list_content1" href="https://qqwqqk.github.io/travel.github.io/" target="site_show" title="Rin"><img src="images/roles/Rin.png" alt="Rin" class="show_list_content"></a>
                 </td>
-                <td class="blank_list"></td>
-                <td class="show_list"></td>
-                <td class="blank_list"></td>
-                <td class="show_list"></td>
-                <td class="blank_list"></td>
-                <td class="show_list"></td>
-                <td class="blank_list"></td>
-                <td class="show_list"></td>
-                <td class="blank_list"></td>
-                <td class="move_list">
-                    <input type="button" id="move_right">
+                <td>
+                    <input class="show_list_header" id="show_list_header2" value="" readonly>
+                    <a id="show_list_content2" href="https://qqwqqk.github.io/trip.github.io/" target="site_show" title="Saber"><img src="images/roles/Saber.png" alt="Saber" class="show_list_content"></a>
                 </td>
+                <td>
+                    <input class="show_list_header" id="show_list_header3" value="" readonly>
+                    <a id="show_list_content3" href="#" title="Sakura"><img src="images/roles/Sakura.png" alt="Sakura" class="show_list_content"></a>
+                </td>
+                <td>
+                    <input class="show_list_header" id="show_list_header4" value="" readonly>
+                    <a id="show_list_content4" href="#" title="Suzuka"><img src="images/roles/Suzuka.png" alt="Suzuka" class="show_list_content"></a>
+                </td>
+                <td><button id="move_right" onclick="MoveRight()"></button></td>
             </tr>
         </table>
     </div>
