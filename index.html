@@ -7,39 +7,48 @@
     <link href="style/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <form id="base_show">
-        <iframe id="site_show" frameborder="0"></iframe>
+<header id="header_css"></header>
+<form id="base_show">
+    <iframe id="site_show" frameborder="0"></iframe>
 
-        <div id="informations">
-            <a id="user_via" href="#" title="user_via">
-                <img src="images/usericon1.jpg" alt="usericon1" class="user_via_show">
-            </a>
-            <div id="user_name">
-                <h3>五月钦铭</h3>
+    <div id="informations">
+        <div id="user_info">
+            <a id="user_icon" href="#" title="五月钦铭"><img src="images/usericon1.jpg" alt="usericon1" class="user_icon_show"></a>
+            <div class="user_link_show">
+                <label>五月钦铭</label><br/>
+                <a id="user_link1" href="#" title="link1"><img src="images/usericon2.jpg" alt="usericon2" class="user_icon_link"></a>
+                <a id="user_link2" href="#" title="link2"><img src="images/usericon3.jpg" alt="usericon3" class="user_icon_link"></a>
             </div>
         </div>
-
-        <div id="site_list">
-            <table id="table_list">
-                <tr>
-                    <td class="move_list">
-                        <input type="button" id="move_left">
-                    </td>
-                    <td class="blank_list"></td>
-                    <td class="show_list"></td>
-                    <td class="blank_list"></td>
-                    <td class="show_list"></td>
-                    <td class="blank_list"></td>
-                    <td class="show_list"></td>
-                    <td class="blank_list"></td>
-                    <td class="show_list"></td>
-                    <td class="blank_list"></td>
-                    <td class="move_list">
-                        <input type="button" id="move_right">
-                    </td>
-                </tr>
-            </table>
+        <div id="wind_info" class="user_link_show">
+            <textarea class="abstract_show" > </textarea><br/>
+            <input type="button" id="enter" value="Enter">
         </div>
-    </form>
+
+    </div>
+
+    <div id="site_list">
+        <table id="table_list">
+            <tr>
+                <td class="move_list">
+                    <input type="button" id="move_left">
+                </td>
+                <td class="blank_list"></td>
+                <td class="show_list"></td>
+                <td class="blank_list"></td>
+                <td class="show_list"></td>
+                <td class="blank_list"></td>
+                <td class="show_list"></td>
+                <td class="blank_list"></td>
+                <td class="show_list"></td>
+                <td class="blank_list"></td>
+                <td class="move_list">
+                    <input type="button" id="move_right">
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
+<footer id="footer_css"></footer>
 </body>
 </html>

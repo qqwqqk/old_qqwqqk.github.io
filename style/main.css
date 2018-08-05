@@ -1,80 +1,26 @@
-﻿body { 
-    padding-top: 0;
-    padding-bottom: 0;
-    height: 100%;
-    background-image:url('../images/background1.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+﻿body {height: 100%; background-image:url('../images/background2.jpg');background-repeat: no-repeat;background-attachment:fixed;background-size: cover;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+/* 顶部信息格式 */
+#header_css{width: 800px; height: 80px;margin: auto;}
 /* 基本框架 */
-#base_show{
-    background-color:white;
-    width: 800px;
-    height: 600px;
-    margin: auto;
-}
+#base_show{ background-color:white;width: 800px;height: 600px; margin: auto;}
 /* 展示框架窗口 */
-#site_show{
-    background-color:red;
-    width: 560px;
-    height: 420px;
-    margin-left: 20px;
-    margin-top:20px;
-}
+#site_show{background-color:red;width: 560px;height: 420px;margin-left: 20px;margin-top:20px;}
 /* 信息展示窗口 */
-#informations{
-    background-color:blue;
-    width: 180px;
-    height: 420px;
-    float:right;
-    margin-right: 20px;
-    margin-top:20px;
-}
-#user_name{
-    text-align:center;
-}
-.user_via_show{
-    height: 120px;
-    width: 120px;
-    border-radius: 60px;
-    border: none;
-    margin: 30px;
-}
+#informations{background-color:blue; width: 180px; height: 420px; float:right; margin-right: 20px; margin-top:20px; }
+#user_info{height: 220px; width: 140px; border: none; margin: 20px; background-color: chartreuse;}
+.user_link_show{ text-align:center; line-height: 36px;}
+.user_icon_show{ height: 100px; width: 100px; border-radius: 50px; border: none; margin: 20px 20px 10px 20px;}
+.user_icon_link{ height: 40px; width: 40px; border-radius: 20px; border: none; margin: 0px 5px 0px 5px;}
+#wind_info{ height: 140px; width: 140px; border: none; margin: 20px; background-color: chartreuse;}
+.abstract_show{height: 80px; width: 120px; color: gray; overflow:hidden; resize:none; border: none; margin: auto;}
+#enter{height: 40px; width: 100px; color: aqua; border: none;}
 /* 选择列表展示 */
-#site_list{
-    background-color:green;
-    width: 760px;
-    height: 120px;
-    position: absolute;
-    border: 1px solid black;
-    margin: 20px 20px 20px 20px;
-}
+#site_list{ background-color:green; width: 760px; height: 120px; position: absolute; border: 1px solid black; margin: 20px 20px 20px 20px;}
 #table_list{border:none;}
-#move_left{
-    height:80px;
-    width:16px;
-    background-color:silver;
-    margin:20px 2px 20px 2px;
-}
-#move_right{
-    height:80px;
-    width:16px;
-    background-color:silver;
-    margin:20px 2px 20px 2px;
-}
-.move_list{
-    height:120px;
-    width:20px;
-    background-color:gray;
-}
-.blank_list{
-    height:120px;
-    width:8px;
-    background-color:white;
-}
-.show_list{
-    height:120px;
-    width:160px;
-    background-color:yellow;
-}
+#move_left{ height:80px; width:16px; background-color:silver; margin:20px 2px 20px 2px;}
+#move_right{ height:80px; width:16px; background-color:silver; margin:20px 2px 20px 2px;}
+.move_list{ height:120px; width:20px; background-color:gray;}
+.blank_list{ height:120px; width:8px; background-color:white;}
+.show_list{ height:120px; width:160px; background-color:yellow;}
+/* 尾部信息格式 */
+#footer_css{ width: 800px; height: 80px; margin: auto;}
