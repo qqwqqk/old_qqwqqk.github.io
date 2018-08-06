@@ -1,6 +1,22 @@
-﻿window.onload = function(){ InitLists(0); }
+﻿window.onload = function(){
+    var length = document.getElementById("list_length");
 
-function InitLists( list_star ){
+    if (window.XMLHttpRequest) { xmlhttp = new XMLHttpRequest(); } else { xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); }
+    xmlhttp.open("GET", "database/site_lists.xml", false);
+    xmlhttp.send();
+    xmlDoc = xmlhttp.responseXML;
+    var sites = xmlDoc.getElementsByTagName("site_node");
+
+    //初始的一些设置
+    document.getElementById('enter').value = sites[0].getElementsByTagName("url")[0].childNodes[0].nodeValue;
+    document.getElementById("site_show").src =  sites[0].getElementsByTagName("url")[0].childNodes[0].nodeValue;
+    document.getElementById('abstract').innerHTML = sites[0].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+
+    length.value = sites.length;
+    InitLists(0 , length.value );
+}
+
+function InitLists( list_star ,list_length){
     if (window.XMLHttpRequest) { xmlhttp = new XMLHttpRequest(); } else { xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); }
     xmlhttp.open("GET", "database/site_lists.xml", false);
     xmlhttp.send();
@@ -8,10 +24,7 @@ function InitLists( list_star ){
     var sites = xmlDoc.getElementsByTagName("site_node");
 
     var star = parseInt(list_star);
-    var length = sites.length;
-
-    if(star < 0 ){ star = star + length; }
-    if(star >= length){ star = star - length; }
+    var length = parseInt(list_length);
 
     document.getElementById("list_star").value = star;
 
@@ -19,9 +32,6 @@ function InitLists( list_star ){
     var index2 = (star + 1) % length;
     var index3 = (star + 2) % length;
     var index4 = (star + 3) % length;
-
-    //设置框架展示内容
-    document.getElementById("site_show").src =  sites[star].getElementsByTagName("url")[0].childNodes[0].nodeValue;
 
     //绑定标题文字
     document.getElementById("show_list_header1").value = sites[index1].getElementsByTagName("name")[0].childNodes[0].nodeValue;
@@ -54,16 +64,47 @@ function InitLists( list_star ){
 
 function MoveLeft(){
     var list_star = document.getElementById("list_star");
-    var star = parseInt(list_star.value);
-    InitLists(star - 1);
-    document.getElementById("list_star").value = star - 1;
-    return false;
+    var list_length = document.getElementById("list_length");
+    var star = parseInt(list_star.value) - 1;
+    var length = parseInt(list_length.value);
+
+    if(star < 0){ star = star + length; }
+    InitLists(star,length);
+    document.getElementById("list_star").value = star;
 }
 
 function MoveRight() {
     var list_star = document.getElementById("list_star");
-    var star = parseInt(list_star.value);
-    InitLists(star + 1);
-    document.getElementById("list_star").value = star + 1;
-    return false;
+    var list_length = document.getElementById("list_length");
+    var star = parseInt(list_star.value) + 1;
+    var length = parseInt(list_length.value);
+
+    if(star >= length){ star = star - length; }
+    InitLists(star,length);
+    document.getElementById("list_star").value = star;
+}
+function Clicked1(){
+    var info = document.getElementById("show_list_content1");
+    document.getElementById('abstract').innerHTML = info.title;
+    document.getElementById('enter').value = info.href;
+}
+function Clicked2(){
+    var info = document.getElementById("show_list_content2");
+    document.getElementById('abstract').innerHTML = info.title;
+    document.getElementById('enter').value = info.href;
+}
+function Clicked3(){
+    var info = document.getElementById("show_list_content3");
+    document.getElementById('abstract').innerHTML = info.title;
+    document.getElementById('enter').value = info.href;
+}
+function Clicked4(){
+    var info = document.getElementById("show_list_content4");
+    document.getElementById('abstract').innerHTML = info.title;
+    document.getElementById('enter').value = info.href;
+}
+
+function Browse(){
+    var url = document.getElementById("enter").value;
+    window.open(url, '_blank');
 }

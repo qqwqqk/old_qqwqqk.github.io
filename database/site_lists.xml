@@ -1,26 +1,26 @@
 <site_menu>
     <site_node>
-        <id>0</id><name>Rin</name><color>red</color>
+        <id>0</id><name>Rin</name><color>#FE007F</color>
         <image>images/roles/Rin.png</image>
         <url>https://qqwqqk.github.io/travel.github.io/</url>
     </site_node>
     <site_node>
-        <id>1</id><name>Saber</name><color>blue</color>
+        <id>1</id><name>Saber</name><color>deepskyblue</color>
         <image>images/roles/Saber.png</image>
         <url>https://qqwqqk.github.io/trip.github.io/</url>
     </site_node>
     <site_node>
-        <id>2</id><name>Sakura</name><color>red</color>
+        <id>2</id><name>Sakura</name><color>#FFC0CB</color>
         <image>images/roles/Sakura.png</image>
         <url>https://qqwqqk.github.io/outgoing.github.io/</url>
     </site_node>
     <site_node>
-        <id>3</id><name>Suzuka</name><color>red</color>
+        <id>3</id><name>Suzuka</name><color>antiquewhite</color>
         <image>images/roles/Suzuka.png</image>
         <url>https://qqwqqk.github.io/stk.github.io/</url>
     </site_node>
     <site_node>
-        <id>4</id><name>Chole</name><color>red</color>
+        <id>4</id><name>Chole</name><color>khaki</color>
         <image>images/roles/Chole.png</image>
         <url>https://qqwqqk.github.io/mmqu.github.io/</url>
     </site_node>

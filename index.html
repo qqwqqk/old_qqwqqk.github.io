@@ -21,38 +21,38 @@
             </div>
         </div>
         <div id="wind_info" class="user_link_show">
-            <textarea class="abstract_show" >故国空余恨 旧王泪无痕</textarea><br/>
-            <button id="enter" value="Enter" onclick=""></button>
+            <textarea id="abstract" class="abstract_show" readonly></textarea><br/>
+            <button type="button" id="enter" value="" onclick="Browse()"><b>Browse</b></button>
         </div>
     </div>
 
     <div>
-        <input type="hidden" id="list_star" value="">
+        <input type="hidden" id="list_star" value=""> <input type="hidden" id="list_length" value="">
         <table id="table_list">
             <tr>
                 <td><button type="button" id="move_left" onclick="MoveLeft()"></button></td>
                 <td>
                     <div class="show_list_box">
+                        <a id="show_list_content1" href="" target="site_show" onclick="Clicked1()"><img id="show_list_image1" alt="picture1" class="show_list_content"></a>
                         <input id="show_list_header1" class="show_list_header" value="" readonly>
-                        <a id="show_list_content1" href="" target="site_show"><img id="show_list_image1" alt="picture1" class="show_list_content"></a>
                     </div>
                 </td>
                 <td>
                     <div class="show_list_box">
+                        <a id="show_list_content2" href="" target="site_show" onclick="Clicked2()"><img id="show_list_image2" alt="picture2" class="show_list_content"></a>
                         <input id="show_list_header2" class="show_list_header" value="" readonly>
-                        <a id="show_list_content2" href="" target="site_show"><img id="show_list_image2" alt="picture2" class="show_list_content"></a>
                     </div>
                 </td>
                 <td>
                     <div class="show_list_box">
+                        <a id="show_list_content3" href="" target="site_show" onclick="Clicked3()"><img id="show_list_image3" alt="picture3" class="show_list_content"></a>
                         <input id="show_list_header3" class="show_list_header" value="" readonly>
-                        <a id="show_list_content3" href="" target="site_show"><img id="show_list_image3" alt="picture3" class="show_list_content"></a>
                     </div>
                 </td>
                 <td>
                     <div class="show_list_box">
+                        <a id="show_list_content4" href="" target="site_show" onclick="Clicked4()"><img id="show_list_image4" alt="picture4" class="show_list_content"></a>
                         <input id="show_list_header4" class="show_list_header" value="" readonly>
-                        <a id="show_list_content4" href="" target="site_show"><img id="show_list_image4" alt="picture4" class="show_list_content"></a>
                     </div>
                 </td>
                 <td><button type="button" id="move_right" onclick="MoveRight()"></button></td>
