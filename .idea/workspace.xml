@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="703f8c9e-145b-4e2f-a344-417eabc69a5f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="703f8c9e-145b-4e2f-a344-417eabc69a5f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +35,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="132">
+              <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -79,7 +74,7 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="E:\qqwqqk\GitHub\qqwqqk.github.io" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="25" />
     <option name="y" value="573" />
     <option name="width" value="1114" />
@@ -167,16 +162,15 @@
       <workItem from="1533515880286" duration="22022000" />
       <workItem from="1533545224660" duration="313000" />
       <workItem from="1533648581076" duration="65000" />
-      <workItem from="1543814451346" duration="13213000" />
+      <workItem from="1543814451346" duration="13431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59269000" />
+    <option name="totallyTimeSpent" value="59487000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1394" height="916" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1394" height="916" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15442279" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -421,8 +415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="132">
+          <caret line="6" column="53" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
         </state>
       </provider>
     </entry>
