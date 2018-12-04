@@ -11,7 +11,7 @@
     document.getElementById('enter').value = sites[0].getElementsByTagName("url")[0].childNodes[0].nodeValue;
     document.getElementById("site_show_image").src =  sites[0].getElementsByTagName("image")[0].childNodes[0].nodeValue;
     document.getElementById("site_show_image").style.backgroundColor =  sites[0].getElementsByTagName("color")[0].childNodes[0].nodeValue;
-    document.getElementById('abstract').innerHTML = sites[0].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+    document.getElementById('abstract').innerHTML = sites[0].getElementsByTagName("description")[0].childNodes[0].nodeValue;
 
     length.value = sites.length;
     InitLists(0 , length.value );
@@ -40,10 +40,10 @@ function InitLists( list_star ,list_length){
     document.getElementById("show_list_header3").value = sites[index3].getElementsByTagName("name")[0].childNodes[0].nodeValue;
     document.getElementById("show_list_header4").value = sites[index4].getElementsByTagName("name")[0].childNodes[0].nodeValue;
     //设置超连接文本
-    document.getElementById("show_list_image1").title = sites[index1].getElementsByTagName("name")[0].childNodes[0].nodeValue;
-    document.getElementById("show_list_image2").title = sites[index2].getElementsByTagName("name")[0].childNodes[0].nodeValue;
-    document.getElementById("show_list_image3").title = sites[index3].getElementsByTagName("name")[0].childNodes[0].nodeValue;
-    document.getElementById("show_list_image4").title = sites[index4].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+    document.getElementById("show_list_image1").title = sites[index1].getElementsByTagName("description")[0].childNodes[0].nodeValue;
+    document.getElementById("show_list_image2").title = sites[index2].getElementsByTagName("description")[0].childNodes[0].nodeValue;
+    document.getElementById("show_list_image3").title = sites[index3].getElementsByTagName("description")[0].childNodes[0].nodeValue;
+    document.getElementById("show_list_image4").title = sites[index4].getElementsByTagName("description")[0].childNodes[0].nodeValue;
     //设置超连接
     document.getElementById("show_list_image1").alt = sites[index1].getElementsByTagName("url")[0].childNodes[0].nodeValue;
     document.getElementById("show_list_image2").alt = sites[index2].getElementsByTagName("url")[0].childNodes[0].nodeValue;
