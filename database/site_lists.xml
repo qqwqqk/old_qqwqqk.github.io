@@ -1,27 +1,27 @@
 <site_menu>
     <site_node>
-        <id>0</id><name>Rin</name><color>#FE007F</color>
-        <image>images/roles/Rin.png</image>
+        <id>0</id><name>Alchemy</name><color>#FE007F</color>
+        <image>images/navigation/Alchemy.jpg</image>
         <url>https://qqwqqk.github.io/travel.github.io/</url>
     </site_node>
     <site_node>
-        <id>1</id><name>Saber</name><color>deepskyblue</color>
-        <image>images/roles/Saber.png</image>
+        <id>1</id><name>Fate</name><color>deepskyblue</color>
+        <image>images/navigation/Fate.jpg</image>
         <url>https://qqwqqk.github.io/trip.github.io/</url>
     </site_node>
     <site_node>
-        <id>2</id><name>Sakura</name><color>#FFC0CB</color>
-        <image>images/roles/Sakura.png</image>
+        <id>2</id><name>Glory</name><color>#FFC0CB</color>
+        <image>images/navigation/Glory.jpg</image>
         <url>https://qqwqqk.github.io/outgoing.github.io/</url>
     </site_node>
     <site_node>
-        <id>3</id><name>Suzuka</name><color>antiquewhite</color>
-        <image>images/roles/Suzuka.png</image>
+        <id>3</id><name>Vocaloid</name><color>antiquewhite</color>
+        <image>images/navigation/Vocaloid.jpg</image>
         <url>https://qqwqqk.github.io/stk.github.io/</url>
     </site_node>
     <site_node>
-        <id>4</id><name>Chole</name><color>khaki</color>
-        <image>images/roles/Chole.png</image>
+        <id>4</id><name>Walk</name><color>khaki</color>
+        <image>images/navigation/Walk.jpg</image>
         <url>https://qqwqqk.github.io/mmqu.github.io/</url>
     </site_node>
 </site_menu>
