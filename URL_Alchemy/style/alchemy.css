@@ -9,6 +9,7 @@ body {height: 100%; background-color:dimgray;background-repeat: no-repeat;backgr
 #move_left{ height:80px; width:28px; outline: none; background:url("../images/left.png"); border: none; opacity: 0.8;}
 #move_right{ height:80px; width:28px; outline: none; background:url("../images/right.png"); border: none; opacity: 0.8;}
 .show_list_box{height:60px; width:60px; margin-left: 4px; margin-right: 4px; border: 5px solid rgba(220,220,220,0.5); border-radius: 10px;background-color:ghostwhite; overflow:hidden;}
+.show_list_content{height: 100%; width: 100%;}
 /*选择窗口*/
 #choice{ height: 50px; width: 780px; margin:0 10px;}
 .choice_button{height:40px; width: 160px; margin:5px 20px; outline: none; background-color: darkgray; font-size: 18px; font-family: "Adobe 宋体 Std L"; border: none; border-radius: 8px; -webkit-transition-duration: 0.4s; transition-duration: 0.4s;}
@@ -18,11 +19,12 @@ body {height: 100%; background-color:dimgray;background-repeat: no-repeat;backgr
 /*框架窗口*/
 #windows{ width: 800px; height: 460px; margin: auto; background-color: darkgray;}
 /* 展示框架窗口 */
-.show_blank{width: 780px; height: 460px; margin:auto; border: none; outline: none;}
-.show_doll{width: 768px; height: 459px;}
-.show_plot{width: 612px; height: 459px;}
+.show_blank1{width: 780px; height: 460px; margin:auto; border: none; outline: none;}
+.show_blank2{width: 612px; height: 460px; margin:auto; border: none; outline: none;}
+.show_blank3{width: 768px; height: 460px; margin:auto; border: none; outline: none;}
 .show_name{width: 120px; height: 40px; margin: 20px 100px 10px 100px; outline: none; border: none; float: left;}
-.show_information{height: 340px; width: 280px; margin: 10px 20px 20px 20px; color: gray; overflow:hidden; resize:none; border-radius: 12px; border: none; float: bottom;}
+.show_information{height: 340px; width: 280px; margin: 10px 20px 20px 20px; color: gray; overflow:hidden; resize:none; border-radius: 12px; border: none; float: bottom; outline:none;}
 .show_role{ width: 430px; height: 430px;margin: 10px; float: right; border: 5px solid rgba(220,220,220,0.5); border-radius: 10px;background-color:ghostwhite; overflow:hidden;}
+.show_full{ width: 100%; height: 100%;}
 /* 尾部信息格式 */
 #footer_css{ width: 800px; height: 60px; margin: auto;}
