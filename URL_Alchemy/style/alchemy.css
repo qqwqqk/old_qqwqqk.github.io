@@ -1,4 +1,4 @@
-body {height: 100%; background-color:dimgray;background-repeat: no-repeat;background-attachment:fixed;background-size: cover;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+body {height: 100%; background-color:darkseagreen;background-repeat: no-repeat;background-attachment:fixed;background-size: cover;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 /* 顶部信息格式 */
 #header_css{width: 800px; height: 60px; margin: auto;}
 /* 基本框架 */
@@ -12,18 +12,18 @@ body {height: 100%; background-color:dimgray;background-repeat: no-repeat;backgr
 .show_list_content{height: 100%; width: 100%;}
 /*选择窗口*/
 #choice{ height: 50px; width: 780px; margin:0 10px;}
-.choice_button{height:40px; width: 160px; margin:5px 20px; outline: none; background-color: darkgray; font-size: 18px; font-family: "Adobe 宋体 Std L"; border: none; border-radius: 8px; -webkit-transition-duration: 0.4s; transition-duration: 0.4s;}
-#choice_role:hover{ background-color: grey;}
-#choice_plot:hover{ background-color: grey;}
-#choice_doll:hover{ background-color: grey;}
+.choice_button{height:40px; width: 160px; margin:5px 20px; outline: none; background-color: orange; font-size: 18px; font-family: "Adobe 宋体 Std L"; border: none; border-radius: 8px; -webkit-transition-duration: 0.4s; transition-duration: 0.4s;}
+#choice_role:hover{ background-color: orangered;}
+#choice_plot:hover{ background-color: orangered;}
+#choice_doll:hover{ background-color: orangered;}
 /*框架窗口*/
-#windows{ width: 800px; height: 460px; margin: auto; background-color: darkgray;}
+#windows{ width: 800px; height: 460px; margin: auto; background-color: transparent;}
 /* 展示框架窗口 */
 .show_blank1{width: 780px; height: 460px; margin:auto; border: none; outline: none;}
 .show_blank2{width: 612px; height: 460px; margin:auto; border: none; outline: none;}
 .show_blank3{width: 768px; height: 460px; margin:auto; border: none; outline: none;}
-.show_name{width: 120px; height: 40px; margin: 20px 100px 10px 100px; outline: none; border: none; float: left;}
-.show_information{height: 340px; width: 280px; margin: 10px 20px 20px 20px; color: gray; overflow:hidden; resize:none; border-radius: 12px; border: none; float: bottom; outline:none;}
+.show_name{width: 120px; height: 40px; margin: 20px 100px 10px 100px; font-size: large; text-align: center; font-family: "Adobe 宋体 Std L"; outline: none; border: none; float: left;}
+.show_information{height: 320px; width: 240px; margin: 10px 40px 40px 40px; font-size: medium; font-family: "Adobe 宋体 Std L"; color: gray; overflow:hidden; resize:none; border-radius: 12px; border: none; float: bottom; outline:none;}
 .show_role{ width: 430px; height: 430px;margin: 10px; float: right; border: 5px solid rgba(220,220,220,0.5); border-radius: 10px;background-color:ghostwhite; overflow:hidden;}
 .show_full{ width: 100%; height: 100%;}
 /* 尾部信息格式 */

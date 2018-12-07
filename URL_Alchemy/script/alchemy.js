@@ -11,7 +11,7 @@ window.onload = function(){
 
     //初始的一些设置
     document.getElementById('title').value = sites[0].getElementsByTagName("name")[0].childNodes[0].nodeValue;
-    document.getElementById("windows").style.backgroundColor =  sites[0].getElementsByTagName("color")[0].childNodes[0].nodeValue;
+    document.getElementById("show_role").style.backgroundColor =  sites[0].getElementsByTagName("color")[0].childNodes[0].nodeValue;
     document.getElementById("show_role").src =  sites[0].getElementsByTagName("role")[0].childNodes[0].nodeValue;
     document.getElementById("show_doll").src =  sites[0].getElementsByTagName("doll")[0].childNodes[0].nodeValue;
     document.getElementById("show_plot").src =  sites[0].getElementsByTagName("plot")[0].childNodes[0].nodeValue;
@@ -95,7 +95,7 @@ function SiteShow(number){
     var sites = xmlDoc.getElementsByTagName("site_node");
 
     document.getElementById('title').value = sites[number].getElementsByTagName("name")[0].childNodes[0].nodeValue;
-    document.getElementById("windows").style.backgroundColor =  sites[number].getElementsByTagName("color")[0].childNodes[0].nodeValue;
+    document.getElementById("show_role").style.backgroundColor =  sites[number].getElementsByTagName("color")[0].childNodes[0].nodeValue;
     document.getElementById("show_role").src =  sites[number].getElementsByTagName("role")[0].childNodes[0].nodeValue;
     document.getElementById("show_doll").src =  sites[number].getElementsByTagName("doll")[0].childNodes[0].nodeValue;
     document.getElementById("show_plot").src =  sites[number].getElementsByTagName("plot")[0].childNodes[0].nodeValue;

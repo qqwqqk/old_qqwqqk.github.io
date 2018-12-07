@@ -1,6 +1,6 @@
 <site_menu>
     <site_node>
-        <id>0</id><name>萝莎</name><color>#FE007F</color>
+        <id>0</id><name>萝莎</name><color>#A561C6</color>
         <doll>images/doll/doll萝莎.png</doll>
         <icon>images/icon/icon萝莎.png</icon>
         <plot>images/plot/plot萝莎.jpg</plot>
@@ -9,7 +9,7 @@
     </site_node>
 
     <site_node>
-        <id>1</id><name>克洛伊</name><color>#FE007F</color>
+        <id>1</id><name>克洛伊</name><color>#A52536</color>
         <doll>images/doll/doll早见.png</doll>
         <icon>images/icon/icon早见.png</icon>
         <plot>images/plot/plot早见.jpg</plot>
@@ -18,7 +18,7 @@
     </site_node>
 
     <site_node>
-        <id>2</id><name>卢克蕾蒂亚</name><color>#FE007F</color>
+        <id>2</id><name>卢克蕾蒂亚</name><color>#52CBEF</color>
         <doll>images/doll/doll雷嫁.png</doll>
         <icon>images/icon/icon雷嫁.png</icon>
         <plot>images/plot/plot雷嫁.jpg</plot>
@@ -27,7 +27,7 @@
     </site_node>
 
     <site_node>
-        <id>3</id><name>黄泉</name><color>#FE007F</color>
+        <id>3</id><name>黄泉</name><color>#4238C6</color>
         <doll>images/doll/doll黄泉.png</doll>
         <icon>images/icon/icon黄泉.png</icon>
         <plot>images/plot/plot黄泉.jpg</plot>
@@ -36,7 +36,7 @@
     </site_node>
 
     <site_node>
-        <id>4</id><name>雪娜</name><color>#FE007F</color>
+        <id>4</id><name>雪娜</name><color>#8380C0</color>
         <doll>images/doll/doll雪娜.png</doll>
         <icon>images/icon/icon雪娜.png</icon>
         <plot>images/plot/plot雪娜.jpg</plot>
@@ -45,7 +45,7 @@
     </site_node>
 
     <site_node>
-        <id>5</id><name>露菲亚</name><color>#FE007F</color>
+        <id>5</id><name>露菲亚</name><color>#6066C3</color>
         <doll>images/doll/doll砂糖.png</doll>
         <icon>images/icon/icon砂糖.png</icon>
         <plot>images/plot/plot砂糖.jpg</plot>
@@ -54,7 +54,7 @@
     </site_node>
 
     <site_node>
-        <id>6</id><name>维特尔</name><color>#FE007F</color>
+        <id>6</id><name>维特尔</name><color>#FC7A4F</color>
         <doll>images/doll/doll团长.png</doll>
         <icon>images/icon/icon团长.png</icon>
         <plot>images/plot/plot团长.jpg</plot>
@@ -63,7 +63,7 @@
     </site_node>
 
     <site_node>
-        <id>7</id><name>马格努斯</name><color>#FE007F</color>
+        <id>7</id><name>马格努斯</name><color>#4AE3EF</color>
         <doll>images/doll/doll雷炮.png</doll>
         <icon>images/icon/icon雷炮.png</icon>
         <plot>images/plot/plot雷炮.jpg</plot>
@@ -72,7 +72,7 @@
     </site_node>
 
     <site_node>
-        <id>8</id><name>巴尔特</name><color>#FE007F</color>
+        <id>8</id><name>巴尔特</name><color>#8C694F</color>
         <doll>images/doll/doll风双.png</doll>
         <icon>images/icon/icon风双.png</icon>
         <plot>images/plot/plot风双.jpg</plot>
@@ -81,7 +81,7 @@
     </site_node>
 
     <site_node>
-        <id>9</id><name>阿尔贝尔</name><color>#FE007F</color>
+        <id>9</id><name>阿尔贝尔</name><color>#CE458C</color>
         <doll>images/doll/doll暗炮.png</doll>
         <icon>images/icon/icon暗炮.png</icon>
         <plot>images/plot/plot暗炮.jpg</plot>
@@ -90,7 +90,7 @@
     </site_node>
 
     <site_node>
-        <id>10</id><name>黎明</name><color>#FE007F</color>
+        <id>10</id><name>黎明</name><color>#EFB22E</color>
         <doll>images/doll/doll黎明.png</doll>
         <icon>images/icon/icon黎明.png</icon>
         <plot>images/plot/plot黎明.jpg</plot>
@@ -99,7 +99,7 @@
     </site_node>
 
     <site_node>
-        <id>11</id><name>斯碧卡</name><color>#FE007F</color>
+        <id>11</id><name>斯碧卡</name><color>#524594</color>
         <doll>images/doll/doll光龙.png</doll>
         <icon>images/icon/icon光龙.png</icon>
         <plot>images/plot/plot光龙.jpg</plot>
