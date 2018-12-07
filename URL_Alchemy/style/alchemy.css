@@ -22,8 +22,8 @@ body {height: 100%; background-color:darkseagreen;background-repeat: no-repeat;b
 .show_blank1{width: 780px; height: 460px; margin:auto; border: none; outline: none;}
 .show_blank2{width: 612px; height: 460px; margin:auto; border: none; outline: none;}
 .show_blank3{width: 768px; height: 460px; margin:auto; border: none; outline: none;}
-.show_name{width: 120px; height: 40px; margin: 20px 100px 10px 100px; font-size: large; text-align: center; font-family: "Adobe 宋体 Std L"; outline: none; border: none; float: left;}
-.show_information{height: 320px; width: 240px; margin: 10px 40px 40px 40px; font-size: medium; font-family: "Adobe 宋体 Std L"; color: gray; overflow:hidden; resize:none; border-radius: 12px; border: none; float: bottom; outline:none;}
+.show_name{width: 110px; height: 30px; margin: 20px 100px 10px 100px;border: 5px solid rgba(220,220,220,0.5); border-radius: 10px; font-size: large; text-align: center; font-family: "Adobe 宋体 Std L"; outline: none; float: left;}
+.show_information{height: 310px; width: 230px; margin: 10px 40px 40px 40px; font-size: medium; color: black; font-family: "Adobe 宋体 Std L"; color: gray; overflow:hidden; resize:none; border-radius: 12px; border: 5px solid rgba(220,220,220,0.5); float: bottom; outline:none;}
 .show_role{ width: 430px; height: 430px;margin: 10px; float: right; border: 5px solid rgba(220,220,220,0.5); border-radius: 10px;background-color:ghostwhite; overflow:hidden;}
 .show_full{ width: 100%; height: 100%;}
 /* 尾部信息格式 */
