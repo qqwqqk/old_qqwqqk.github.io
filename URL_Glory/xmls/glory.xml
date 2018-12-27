@@ -9,7 +9,7 @@
 
     <site_node>
         <id>0</id>
-        <volume>一</volume>
+        <volume>二</volume>
         <number>2</number>
         <name>最初的朋友，一生的对手</name>>
         <URL>Read/glory_2.html</URL>
@@ -17,7 +17,7 @@
 
     <site_node>
         <id>0</id>
-        <volume>一</volume>
+        <volume>三</volume>
         <number>3</number>
         <name>请君入瓮</name>>
         <URL>Read/glory_3.html</URL>
@@ -25,9 +25,57 @@
 
     <site_node>
         <id>0</id>
-        <volume>一</volume>
+        <volume>四</volume>
         <number>4</number>
         <name>那时花开</name>>
         <URL>Read/glory_4.html</URL>
+    </site_node>
+
+    <site_node>
+        <id>0</id>
+        <volume>五</volume>
+        <number>5</number>
+        <name>双核时代</name>>
+        <URL>Read/glory_5.html</URL>
+    </site_node>
+
+    <site_node>
+        <id>0</id>
+        <volume>六</volume>
+        <number>6</number>
+        <name>决战之时</name>>
+        <URL>Read/glory_6.html</URL>
+    </site_node>
+
+    <site_node>
+        <id>0</id>
+        <volume>七</volume>
+        <number>7</number>
+        <name>见证奇迹的时刻</name>>
+        <URL>Read/glory_7.html</URL>
+    </site_node>
+
+    <site_node>
+        <id>0</id>
+        <volume>八</volume>
+        <number>8</number>
+        <name>传承</name>>
+        <URL>Read/glory_8.html</URL>
+    </site_node>
+
+    <site_node>
+        <id>0</id>
+        <volume>九</volume>
+        <number>9</number>
+        <name>神话的开始</name>>
+        <URL>Read/glory_9.html</URL>
+    </site_node>
+
+    <site_node>
+        <id>0</id>
+        <volume>十</volume>
+        <number>10</number>
+        <name>王朝与少年</name>>
+        <URL>Read/glory_10.html</URL>
     </site_node>
 </site_menu>
