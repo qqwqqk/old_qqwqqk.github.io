@@ -2,52 +2,20 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Alchemy</title>
-    <script src="script/alchemy.js" type="text/javascript"></script>
-    <link href="style/alchemy.css" rel="stylesheet" type="text/css">
+    <title>巅峰荣耀</title>
+    <script src="script/glory.js" type="text/javascript"></script>
+    <link href="style/glory.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="../images/icon/icon-Glory.ico" type="img/x-ico" />
 </head>
 <body>
 <header id="header_css"></header>
-<form id="base_show">
-    <div id="list">
-        <input type="hidden" id="list_star" value=""> <input type="hidden" id="list_length" value="">
-        <table id="role_list">
-            <tr>
-                <td><button type="button" id="move_left" onclick="MoveLeft()"></button></td>
-                <td><div class="show_list_box"><img title="" id="show_list_image0" alt="picture lost" class="show_list_content" onclick="Clicked0()" ></div></td>
-                <td><div class="show_list_box"><img title="" id="show_list_image1" alt="picture lost" class="show_list_content" onclick="Clicked1()" ></div></td>
-                <td><div class="show_list_box"><img title="" id="show_list_image2" alt="picture lost" class="show_list_content" onclick="Clicked2()" ></div></td>
-                <td><div class="show_list_box"><img title="" id="show_list_image3" alt="picture lost" class="show_list_content" onclick="Clicked3()" ></div></td>
-                <td><div class="show_list_box"><img title="" id="show_list_image4" alt="picture lost" class="show_list_content" onclick="Clicked4()" ></div></td>
-                <td><div class="show_list_box"><img title="" id="show_list_image5" alt="picture lost" class="show_list_content" onclick="Clicked5()" ></div></td>
-                <td><div class="show_list_box"><img title="" id="show_list_image6" alt="picture lost" class="show_list_content" onclick="Clicked6()" ></div></td>
-                <td><div class="show_list_box"><img title="" id="show_list_image7" alt="picture lost" class="show_list_content" onclick="Clicked7()" ></div></td>
-                <td><div class="show_list_box"><img title="" id="show_list_image8" alt="picture lost" class="show_list_content" onclick="Clicked8()" ></div></td>
-                <td><button type="button" id="move_right" onclick="MoveRight()"></button></td>
-            </tr>
-        </table>
+<form id="read_show">
+    <div id="topic">
+        <input id="topic_show" value="巅峰荣耀">
     </div>
 
-    <div id="choice">
-        <input type="hidden" id="choice_value" value="">
-        <button id="choice_role" type="button" class="choice_button" onclick="Choice1()">人物简介</button>
-        <button id="choice_plot" type="button" class="choice_button" onclick="Choice2()">剧情立绘</button>
-        <button id="choice_doll" type="button" class="choice_button" onclick="Choice3()">真理念装</button>
-    </div>
-
-    <div id="windows">
-        <table id="site_show1" class="show_blank1">
-            <tr>
-                <td><input id="title" class="show_name" value="name" readonly/></td>
-                <td rowspan="2"><img id="show_role" alt="picture lost" class="show_role"></td>
-            </tr>
-            <tr>
-                <td><textarea id="Introduction" class="show_information" readonly></textarea></td>
-            </tr>
-        </table>
-        <div id="site_show2" class="show_blank2"><img id="show_plot" alt="picture lost" class="show_full"></div>
-        <div id="site_show3" class="show_blank3"><img id="show_doll" alt="picture lost" class="show_full"></div>
+    <div id="list" >
+        <a href="#" class="list_title" title=""></a>
     </div>
 </form>
 <footer id="footer_css"></footer>

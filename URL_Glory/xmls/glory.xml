@@ -1,0 +1,33 @@
+<site_menu>
+    <site_node>
+        <id>0</id>
+        <volume>一</volume>
+        <number>1</number>
+        <name>十五岁的夏天</name>>
+        <URL>Read/glory_1.html</URL>
+    </site_node>
+
+    <site_node>
+        <id>0</id>
+        <volume>一</volume>
+        <number>2</number>
+        <name>最初的朋友，一生的对手</name>>
+        <URL>Read/glory_2.html</URL>
+    </site_node>
+
+    <site_node>
+        <id>0</id>
+        <volume>一</volume>
+        <number>3</number>
+        <name>请君入瓮</name>>
+        <URL>Read/glory_3.html</URL>
+    </site_node>
+
+    <site_node>
+        <id>0</id>
+        <volume>一</volume>
+        <number>4</number>
+        <name>那时花开</name>>
+        <URL>Read/glory_4.html</URL>
+    </site_node>
+</site_menu>
