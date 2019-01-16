@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="703f8c9e-145b-4e2f-a344-417eabc69a5f" name="Default" comment="" />
+    <list default="true" id="703f8c9e-145b-4e2f-a344-417eabc69a5f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,38 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Glory.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Glory.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URL_Glory/Glory.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="glory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URL_Glory/script/glory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="glory.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/URL_Glory/style/glory.css">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -130,6 +105,11 @@
             </path>
             <path>
               <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qqwqqk.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="URL_Glory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
@@ -179,16 +159,19 @@
       <workItem from="1544146950420" duration="2139000" />
       <workItem from="1544167668402" duration="3477000" />
       <workItem from="1545870904732" duration="21080000" />
+      <workItem from="1547516221535" duration="2425000" />
+      <workItem from="1547604860332" duration="1786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122282000" />
+    <option name="totallyTimeSpent" value="126493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1394" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16566716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17016491" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -423,20 +406,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URL_Glory/Read/glory_11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URL_Glory/Read/glory_12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_Glory/Read/glory_11.html" />
+    <entry file="file://$PROJECT_DIR$/URL_Glory/Read/glory_12.html" />
     <entry file="file://$PROJECT_DIR$/URL_Glory/Read/glory_4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -476,12 +447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="75" column="10" lean-forward="true" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
-          <folding>
-            <element signature="e#26#962#0" />
-            <element signature="n#!!block;n#InitLists#0" />
-            <element signature="n#!!block;n#MoveLeft#0" />
-            <element signature="n#!!block;n#MoveRight#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -489,26 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" selection-start-line="11" selection-end-line="17" selection-end-column="128" />
-          <folding>
-            <element signature="n#!!block;n#InitLists#0" />
-            <element signature="n#!!block;n#ChoiceShow#0" />
-            <element signature="n#!!block;n#SiteShow#0" />
-            <element signature="n#!!block;n#Choice1#0" />
-            <element signature="n#!!block;n#Choice2#0" />
-            <element signature="n#!!block;n#Choice3#0" />
-            <element signature="n#!!block;n#MoveLeft#0" />
-            <element signature="n#!!block;n#MoveRight#0" />
-            <element signature="n#!!block;n#Clicked0#0" />
-            <element signature="n#!!block;n#Clicked1#0" />
-            <element signature="n#!!block;n#Clicked2#0" />
-            <element signature="n#!!block;n#Clicked3#0" />
-            <element signature="n#!!block;n#Clicked4#0" />
-            <element signature="n#!!block;n#Clicked5#0" />
-            <element signature="n#!!block;n#Clicked6#0" />
-            <element signature="n#!!block;n#Clicked7#0" />
-            <element signature="n#!!block;n#Clicked8#0" />
-            <element signature="n#!!block;n#Browse#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,7 +509,14 @@
     <entry file="file://$PROJECT_DIR$/URL_Glory/script/glory.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -577,15 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/URL_Glory/Glory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="308">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
