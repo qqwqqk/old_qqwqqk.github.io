@@ -1,6 +1,14 @@
 <site_menu>
     <site_node>
         <id>0</id>
+        <volume>零</volume>
+        <number>1</number>
+        <name>测试</name>>
+        <URL>Novel.html?id=0;name=temp</URL>
+    </site_node>
+
+    <site_node>
+        <id>0</id>
         <volume>一</volume>
         <number>1</number>
         <name>十五岁的夏天</name>>

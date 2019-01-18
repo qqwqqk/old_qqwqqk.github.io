@@ -1,0 +1,18 @@
+body {height: 100%; background-color:#66CCFF;background-repeat: no-repeat;background-attachment:fixed;background-size: cover;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+/* 顶部信息格式 */
+#header_css{width: 800px; height: 60px; margin: auto;}
+/* 基本框架 */
+#base_show{ background-color:transparent;width: 800px; height: 600px; margin: auto;}
+/* 阅读框架 */
+#read_show{ background-color:transparent;width: 800px; margin: auto;}
+#read_content{ width: 800px; margin: auto; background-color: transparent; border-radius: 10px;}
+.read_size{font-size: 22px; font-family: 微软雅黑}
+/* 题目内容 */
+#topic{ height: 90px; width:800px; text-align: center;}
+#topic_show{font-size:xx-large;text-align: center; height: 60px; width:600px; background: transparent; outline: none; border: none;}
+/* 列表加载 */
+#list{ width: 800px; margin: auto; background-color: transparent;  border-radius: 10px; overflow:hidden;}
+.list_title{width: 240px; margin: 10px 0 10px 20px; float: left;text-align: left; font-size: 16px; }
+.list_link{text-decoration: none; color: black;}
+a:visited{color: black;}
+a:hover{color: orangered;}
