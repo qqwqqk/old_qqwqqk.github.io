@@ -1,27 +1,16 @@
 window.onload = function(){
 
-    var v = parseUrl();//解析所有参数
-    alert(v['name']);//就是你要的结果
+    //参数解析，数据地址拼接
+    var cache = parseUrl();
+    var number = parseInt(cache['id']);
+    var parameter ="xmls/" + cache['name'] + cache['id'] + ".xml";
+    //alert(parameter);
 
-    if (window.XMLHttpRequest) { xmlhttp = new XMLHttpRequest(); } else { xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); }
-    xmlhttp.open("GET", "xmls/glory.xml", false);
-    xmlhttp.send();
-    xmlDoc = xmlhttp.responseXML;
-    var sites = xmlDoc.getElementsByTagName("site_node");
-
-    var length = sites.length;
-    //alert(length);
-
-    for(var i=0;i<length;i++){
-        var volume= sites[i].getElementsByTagName("volume")[0].childNodes[0].nodeValue;
-        var title = sites[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
-        var url= sites[i].getElementsByTagName("URL")[0].childNodes[0].nodeValue;
-
-        //AddListnode(volume,title,url);
-    }
-
+    UpFrame(number);
+    UpSection(parameter);
 }
 
+//参数解析函数
 function parseUrl(){
     var url=location.href;
     var i=url.indexOf('?');
@@ -36,9 +25,80 @@ function parseUrl(){
     return arr2;
 }
 
-function AddListnode(volume,title,url) {
-    var newDiv = document.createElement("div");
-    newDiv.className="list_title";
-    newDiv.innerHTML="<a href=\'" + url + "\' class=\'list_link\' target=\'_blank\'>第"+ volume +"节   "+ title +"</a>";
-    document.getElementById("list").appendChild(newDiv);
+//页面框架信息替换
+function UpFrame(id){
+    if (window.XMLHttpRequest) { xmltitle = new XMLHttpRequest(); } else { xmltitle = new ActiveXObject("Microsoft.XMLHTTP"); }
+    xmltitle.open("GET", "xmls/glory.xml", false);
+    xmltitle.send();
+    xmlTitle = xmltitle.responseXML;
+    var sites = xmlTitle.getElementsByTagName("site_node");
+    var index = id - 1;
+    var length = sites.length;
+
+    var title = "第" + id + "节  " + sites[index].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+    //alert(title);
+
+    document.getElementsByTagName("title")[0].innerText = title;
+    var newh1 = document.createElement("h1");
+    newh1.innerHTML= title ;
+    document.getElementById("topic").appendChild(newh1);
+
+    if(id>1){
+        var pre_value = id - 1;
+        var pre_title= sites[pre_value - 1].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+        var pre_url= sites[pre_value - 1].getElementsByTagName("URL")[0].childNodes[0].nodeValue;
+
+        AddHeaderlink(pre_url,pre_value,pre_title,0);
+        AddFooterlink(pre_url,pre_value,pre_title,0);
+    }
+
+    if(id<length){
+        var next_value = id + 1;
+        var next_title = sites[next_value - 1].getElementsByTagName("name")[0].childNodes[0].nodeValue;
+        var next_url= sites[next_value - 1].getElementsByTagName("URL")[0].childNodes[0].nodeValue;
+
+        AddHeaderlink(next_url,next_value,next_title,1);
+        AddFooterlink(next_url,next_value,next_title,1);
+    }
+}
+
+//头部位置添加超连接
+function AddHeaderlink(url,value,title,tag) {
+    var link = document.createElement("div");
+    link.innerHTML="<a href=\'" + url + "\' class=\'list_link\'>第"+ value +"节   "+ title +"</a>";
+    if(!tag){ link.className="pre_link";} else{ link.className="next_link";}
+    document.getElementById("header_link").appendChild(link);
+}
+
+//底部位置添加超连接
+function AddFooterlink(url,value,title,tag) {
+    var link = document.createElement("div");
+    link.innerHTML="<a href=\'" + url + "\' class=\'list_link\'>第"+ value +"节   "+ title +"</a>";
+    if(!tag){ link.className="pre_link";} else{ link.className="next_link";}
+    document.getElementById("footer_link").appendChild(link);
+}
+
+//文本信息更新
+function UpSection(url){
+    //访问文本对应的XML数据
+    if (window.XMLHttpRequest) { xmlsection = new XMLHttpRequest(); } else { xmlsection = new ActiveXObject("Microsoft.XMLHTTP"); }
+    xmlsection.open("GET", url, false);
+    xmlsection.send();
+    xmlSection = xmlsection.responseXML;
+    var sites = xmlSection.getElementsByTagName("p");
+    var length = sites.length;
+    //alert(length);
+
+    //将对应的文本内容写入HTML页面
+    for(var i=0;i<length;i++){
+        var Section= sites[i].childNodes[0].nodeValue;
+        AddSection(Section);
+    }
+}
+
+//文本写入函数
+function AddSection(section){
+    var newDiv = document.createElement("p");
+    newDiv.innerHTML="<p>" + section + "</p>";
+    document.getElementById("read_content").appendChild(newDiv);
 }

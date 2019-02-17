@@ -9,7 +9,7 @@ window.onload = function(){
     //alert(length);
 
     for(var i=0;i<length;i++){
-        var volume= sites[i].getElementsByTagName("volume")[0].childNodes[0].nodeValue;
+        var volume= sites[i].getElementsByTagName("number")[0].childNodes[0].nodeValue;
         var title = sites[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
         var url= sites[i].getElementsByTagName("URL")[0].childNodes[0].nodeValue;
 
