@@ -3,7 +3,7 @@
         <id>0</id><name>萝莎</name><color>#A561C6</color>
         <doll>images/doll/doll萝莎.png</doll>
         <icon>images/icon/icon萝莎.png</icon>
-        <plot>images/plot/plot萝莎.jpg</plot>
+        <plot>images/plot/plot萝莎.png</plot>
         <role>images/role/role萝莎.png</role>
         <description>拉斯特里斯的古老家族的大小姐。自从到过家里地下室的拷问室以后，对于残暴的虐待人的器具很感兴趣。说着让人痛苦的话语，自己情绪就会高涨，右边水晶体的炼金的浓度会提高，右眼会发光。</description>
     </site_node>
@@ -12,7 +12,7 @@
         <id>1</id><name>克洛伊</name><color>#A52536</color>
         <doll>images/doll/doll早见.png</doll>
         <icon>images/icon/icon早见.png</icon>
-        <plot>images/plot/plot早见.jpg</plot>
+        <plot>images/plot/plot早见.png</plot>
         <role>images/role/role早见.png</role>
         <description>安比利亚王国“绯炎骑士团”近卫部队队长。拥有同身长一样的长剑，可以将敌人瞬间打倒。性格非常认真，不允许懒惰。对周围的人很严格，但实际上也有少女的一面。</description>
     </site_node>
@@ -21,7 +21,7 @@
         <id>2</id><name>卢克蕾蒂亚</name><color>#52CBEF</color>
         <doll>images/doll/doll雷嫁.png</doll>
         <icon>images/icon/icon雷嫁.png</icon>
-        <plot>images/plot/plot雷嫁.jpg</plot>
+        <plot>images/plot/plot雷嫁.png</plot>
         <role>images/role/role雷嫁.png</role>
         <description>勇猛、独自生活、无人愿意娶的安比利亚姬骑士。是个天才，什么都会。但只有料理使她头疼。每天为了花嫁/花婿课业而勤奋努力中，比起使剑，菜刀真是难用。</description>
     </site_node>
@@ -30,7 +30,7 @@
         <id>3</id><name>黄泉</name><color>#4238C6</color>
         <doll>images/doll/doll黄泉.png</doll>
         <icon>images/icon/icon黄泉.png</icon>
-        <plot>images/plot/plot黄泉.jpg</plot>
+        <plot>images/plot/plot黄泉.png</plot>
         <role>images/role/role黄泉.png</role>
         <description>绵津见国代代相传的武家一族的后人。长兄失踪后，因为不是男子没有受到上代宠爱的她成为了家主。用世代相传的长刀来战斗，一直在寻找杀了包括父亲在内一族人的哥哥。</description>
     </site_node>
@@ -39,7 +39,7 @@
         <id>4</id><name>雪娜</name><color>#8380C0</color>
         <doll>images/doll/doll雪娜.png</doll>
         <icon>images/icon/icon雪娜.png</icon>
-        <plot>images/plot/plot雪娜.jpg</plot>
+        <plot>images/plot/plot雪娜.png</plot>
         <role>images/role/role雪娜.png</role>
         <description>安比利亚首屈一指的武斗家家族出生的女孩。从小就接受了英才教育，有着与生俱来的天赋，此才能已经成长为了不起的本领。在武术中注入了可爱和华美的元素，是武术界有名的偶像。</description>
     </site_node>
@@ -48,7 +48,7 @@
         <id>5</id><name>露菲亚</name><color>#6066C3</color>
         <doll>images/doll/doll砂糖.png</doll>
         <icon>images/icon/icon砂糖.png</icon>
-        <plot>images/plot/plot砂糖.jpg</plot>
+        <plot>images/plot/plot砂糖.png</plot>
         <role>images/role/role砂糖.png</role>
         <description>在魔法之国・路斯特布鲁格宫廷工作的少女。不单单对魔道知识了如指掌、还通晓各种知识，仅14岁就加入“宫廷魔道师团”。有着与年龄不符的远见、时刻保持冷静，性格不别扭，大家对她的评价都很好。</description>
     </site_node>
@@ -57,7 +57,7 @@
         <id>6</id><name>维特尔</name><color>#FC7A4F</color>
         <doll>images/doll/doll团长.png</doll>
         <icon>images/icon/icon团长.png</icon>
-        <plot>images/plot/plot团长.jpg</plot>
+        <plot>images/plot/plot团长.png</plot>
         <role>images/role/role团长.png</role>
         <description>安比利亚王国“绯炎骑士团”的原骑士团长。战争时，与拉斯特里斯骑士团长扎哈尔交手后，右眼负伤。勇敢、正义感强，性格开朗，不仅是部下，民众都很喜欢他。</description>
     </site_node>
@@ -66,7 +66,7 @@
         <id>7</id><name>马格努斯</name><color>#4AE3EF</color>
         <doll>images/doll/doll雷炮.png</doll>
         <icon>images/icon/icon雷炮.png</icon>
-        <plot>images/plot/plot雷炮.jpg</plot>
+        <plot>images/plot/plot雷炮.png</plot>
         <role>images/role/role雷炮.png</role>
         <description>为了成为世界第一的炼金术师日夜修行，一步一步朝世界第一靠近。但突然停止了研究和修行。之后并没有什么努力的目标，而是利用自己天生擅长的计算能力，以投资为生。</description>
     </site_node>
@@ -75,7 +75,7 @@
         <id>8</id><name>巴尔特</name><color>#8C694F</color>
         <doll>images/doll/doll风双.png</doll>
         <icon>images/icon/icon风双.png</icon>
-        <plot>images/plot/plot风双.jpg</plot>
+        <plot>images/plot/plot风双.png</plot>
         <role>images/role/role风双.png</role>
         <description>沙漠联防队“热砂之鹰”的副团长。从失去珍贵之人的悲伤中走出，与伙伴们一起建立了联防队。虽然毒舌但是非常关心同伴。为了不要忘记失去同伴的痛苦，每次有同伴牺牲就在右脚上加一个锁来惩罚自己。</description>
     </site_node>
@@ -84,7 +84,7 @@
         <id>9</id><name>阿尔贝尔</name><color>#CE458C</color>
         <doll>images/doll/doll暗炮.png</doll>
         <icon>images/icon/icon暗炮.png</icon>
-        <plot>images/plot/plot暗炮.jpg</plot>
+        <plot>images/plot/plot暗炮.png</plot>
         <role>images/role/role暗炮.png</role>
         <description>斯洛斯修坦有名的年轻机械师。技术水平高、只做自己感兴趣事情的匠人。有点洁癖，经常戴着防毒面具。不和父母住在一起，好像有个一直没有见过面的亲生哥哥。</description>
     </site_node>
@@ -93,7 +93,7 @@
         <id>10</id><name>黎明</name><color>#EFB22E</color>
         <doll>images/doll/doll黎明.png</doll>
         <icon>images/icon/icon黎明.png</icon>
-        <plot>images/plot/plot黎明.jpg</plot>
+        <plot>images/plot/plot黎明.png</plot>
         <role>images/role/role黎明.png</role>
         <description>在绵津见国最被讨厌的流派“柴闪光”的最后继承者。用卑鄙、下流的剑术打败对方。因为被讨厌而一直很孤独。休息的时候吃豆沙水果凉粉是他唯一的乐趣。</description>
     </site_node>
@@ -102,7 +102,7 @@
         <id>11</id><name>斯碧卡</name><color>#524594</color>
         <doll>images/doll/doll光龙.png</doll>
         <icon>images/icon/icon光龙.png</icon>
-        <plot>images/plot/plot光龙.jpg</plot>
+        <plot>images/plot/plot光龙.png</plot>
         <role>images/role/role光龙.png</role>
         <description>拉斯特里斯的出身的贵族女孩。扎哈尔对她有恩，于是就加入了扎哈尔的阵营，效忠于他。她喜欢在树上和悬崖边和动物嬉戏。是个可以操纵巨斧的强大如鬼神一般的存在。</description>
     </site_node>

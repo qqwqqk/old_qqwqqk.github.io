@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703f8c9e-145b-4e2f-a344-417eabc69a5f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/Alchemy.html" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Alchemy/Alchemy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot光龙.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot团长.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot早见.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot暗炮.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot砂糖.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot萝莎.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot雪娜.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot雷嫁.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot雷炮.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot风双.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot黄泉.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/images/plot/plot黎明.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/script/alchemy.js" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Alchemy/script/alchemy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/style/alchemy.css" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Alchemy/style/alchemy.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/URL_Alchemy/xmls/alchemy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Alchemy/xmls/alchemy.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,36 +28,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="Alchemy.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/URL_Alchemy/Alchemy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="132">
+              <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/script/main.js">
+      <file leaf-file-name="alchemy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URL_Alchemy/script/alchemy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+            <state relative-caret-position="198">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
               <folding>
                 <element signature="n#!!block;n#InitListFull#0" />
-                <element signature="n#!!block;n#AddMove#0" />
-                <element signature="n#!!block;n#ClickedList#0" />
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
                 <element signature="n#!!block;n#MoveRight#0" />
                 <element signature="n#!!block;n#MoveLeft#0" />
+                <element signature="n#!!block;n#ClickedList#0" />
+                <element signature="n#!!block;n#ChoiceShow#0" />
+                <element signature="n#!!block;n#Choice1#0" />
+                <element signature="n#!!block;n#Choice2#0" />
+                <element signature="n#!!block;n#Choice3#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/main.css">
+      <file leaf-file-name="alchemy.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URL_Alchemy/xmls/alchemy.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            <state relative-caret-position="200">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alchemy.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/URL_Alchemy/style/alchemy.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -67,10 +93,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/welcome.html" />
-        <option value="$PROJECT_DIR$/URL_Alchemy/script/alchemy.js" />
-        <option value="$PROJECT_DIR$/URL_Alchemy/xmls/alchemy.xml" />
-        <option value="$PROJECT_DIR$/URL_Alchemy/style/alchemy.css" />
-        <option value="$PROJECT_DIR$/URL_Alchemy/Alchemy.html" />
         <option value="$PROJECT_DIR$/URL_Glory/Read/glory_11.html" />
         <option value="$PROJECT_DIR$/URL_Glory/Read/glory_12.html" />
         <option value="$PROJECT_DIR$/URL_Glory/Read/glory_4.html" />
@@ -104,6 +126,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/script/main.js" />
         <option value="$PROJECT_DIR$/style/main.css" />
+        <option value="$PROJECT_DIR$/URL_Alchemy/xmls/alchemy.xml" />
+        <option value="$PROJECT_DIR$/URL_Alchemy/script/alchemy.js" />
+        <option value="$PROJECT_DIR$/URL_Alchemy/style/alchemy.css" />
+        <option value="$PROJECT_DIR$/URL_Alchemy/Alchemy.html" />
       </list>
     </option>
   </component>
@@ -117,7 +143,7 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="E:\qqwqqk\GitHub\qqwqqk.github.io" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="916" />
@@ -142,39 +168,30 @@
             <path>
               <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="qqwqqk.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qqwqqk.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="script" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="qqwqqk.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="URL_Alchemy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qqwqqk.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="URL_Alchemy" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qqwqqk.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="URL_Alchemy" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="qqwqqk.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="URL_Alchemy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qqwqqk.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="URL_Alchemy" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qqwqqk.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="URL_Glory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="qqwqqk.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="URL_Glory" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="xmls" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qqwqqk.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -236,12 +253,12 @@
       <workItem from="1547604860332" duration="1788000" />
       <workItem from="1547789800790" duration="4628000" />
       <workItem from="1550304102260" duration="17722000" />
-      <workItem from="1550453480307" duration="22505000" />
+      <workItem from="1550453480307" duration="28873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171350000" />
+    <option name="totallyTimeSpent" value="177718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1394" height="916" extended-state="6" />
@@ -297,7 +314,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -307,20 +324,6 @@
     <entry file="file://$PROJECT_DIR$/images/roles/Rin.png" />
     <entry file="file://$PROJECT_DIR$/images/roles/Chole.png" />
     <entry file="file://$PROJECT_DIR$/images/roles/Pneuma.png" />
-    <entry file="file://$PROJECT_DIR$/URL_Alchemy/style/alchemy.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="34" lean-forward="true" selection-end-line="29" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URL_Alchemy/xmls/alchemy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URL_Glory/Read/glory_11.html" />
     <entry file="file://$PROJECT_DIR$/URL_Glory/Read/glory_12.html" />
     <entry file="file://$PROJECT_DIR$/URL_Glory/xmls/glory0000.xml" />
@@ -460,24 +463,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URL_Alchemy/Alchemy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/site_lists.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="54" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URL_Alchemy/script/alchemy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="74" column="68" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -495,10 +484,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_Alchemy/script/alchemy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!block;n#InitListFull#0" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#!!block;n#MoveRight#0" />
+            <element signature="n#!!block;n#MoveLeft#0" />
+            <element signature="n#!!block;n#ClickedList#0" />
+            <element signature="n#!!block;n#ChoiceShow#0" />
+            <element signature="n#!!block;n#Choice1#0" />
+            <element signature="n#!!block;n#Choice2#0" />
+            <element signature="n#!!block;n#Choice3#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_Alchemy/xmls/alchemy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/URL_Alchemy/style/alchemy.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+        <state relative-caret-position="464">
+          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
           <folding>
             <element signature="n#!!block;n#InitListFull#0" />
             <element signature="n#!!block;n#AddMove#0" />
@@ -509,17 +544,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/main.css">
+    <entry file="file://$PROJECT_DIR$/URL_Alchemy/Alchemy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        <state relative-caret-position="132">
+          <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
         </state>
       </provider>
     </entry>

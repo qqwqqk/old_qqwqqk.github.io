@@ -1,14 +1,14 @@
-body {height: 100%; background-color:darkseagreen;background-repeat: no-repeat;background-attachment:fixed;background-size: cover;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+body {height: 100%; background-color:lightgoldenrodyellow;background-repeat: no-repeat;background-attachment:fixed;background-size: cover;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 /* 顶部信息格式 */
 #header_css{width: 800px; height: 60px; margin: auto;}
 /* 基本框架 */
 #base_show{ background-color:transparent;width: 800px;height: 600px; margin: auto;}
 /* 选择列表展示 */
 #list{ height: 90px; width:800px;}
-#role_list{height: 80px; width:780px; border:none;}
-#move_left{ height:80px; width:28px; outline: none; background:url("../images/left.png"); border: none; opacity: 0.8;}
-#move_right{ height:80px; width:28px; outline: none; background:url("../images/right.png"); border: none; opacity: 0.8;}
-.show_list_box{height:60px; width:60px; margin-left: 4px; margin-right: 4px; border: 5px solid rgba(220,220,220,0.5); border-radius: 10px;background-color:ghostwhite; overflow:hidden;}
+#role_list{height: 80px; width:780px; margin-right: 10px; margin-left: 10px; border:none;}
+#move_left{ height:80px; width:28px; outline: none; margin-right: 4px; background:url("../images/left.png"); border: none; opacity: 0.8;}
+#move_right{ height:80px; width:28px; outline: none; margin-left: 4px; background:url("../images/right.png"); border: none; opacity: 0.8;}
+.show_list_box{height:60px; width:60px; margin-left: 4px; margin-right: 4px; float: left; border: 5px solid rgba(220,220,220,0.5); border-radius: 10px;background-color:ghostwhite; overflow:hidden;}
 .show_list_content{height: 100%; width: 100%;}
 /*选择窗口*/
 #choice{ height: 50px; width: 780px; margin:0 10px;}
