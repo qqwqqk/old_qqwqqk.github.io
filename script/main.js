@@ -14,7 +14,7 @@ function InitListFull(list_count){
     xmlDoc = xmlhttp.responseXML;
     var sites = xmlDoc.getElementsByTagName("site_node");
 
-    AddMove(0);
+    //AddMove(0);
     for(var i=0; i<list_count; i++){
         var id = i;
         var name = sites[i].getElementsByTagName("name")[0].childNodes[0].nodeValue;
@@ -48,7 +48,7 @@ function InitListFull(list_count){
         var pr_url = sites[k].getElementsByTagName("url")[0].childNodes[0].nodeValue;
         AddLists(pr_id, pr_name, pr_color, pr_img, pr_img_show, pr_img_list, pr_text, pr_url, 0);
     }
-    AddMove(1);
+    //AddMove(1);
 
     var count = new Object();
     count.value = sites.length;
@@ -67,13 +67,13 @@ function AddMove(tag){
 }
 
 function AddLists(id, name, color, img, img_show, img_list, text, url, show){
-    var newDiv = document.createElement("td");
-    newDiv.innerHTML="<div id=\'listshow" + id +"\' class=\'show_list_box\'> <img id=\'listimg" + id +"\' title=\'"+ text +"\' src=\'"+ img_list +"\' alt=\'"+ url +"\' class=\'show_list_content\' onclick=\'ClickedList("+ id +")\'> <input class=\'show_list_header\' value=\'"+ name +"\' readonly></div>";
-    document.getElementById("tr").appendChild(newDiv);
-    if(!show){
-        var str = 'listshow' + id;
-        document.getElementById(str).style.display = "none";
-    }
+    var newDiv = document.createElement("div");
+    var str = 'listshow' + id;
+    newDiv.id = str;
+    newDiv.className = "show_list_box";
+    newDiv.innerHTML="<img id=\'listimg" + id +"\' title=\'"+ text +"\' src=\'"+ img_list +"\' alt=\'"+ url +"\' class=\'show_list_content\' onclick=\'ClickedList("+ id +")\'> <input class=\'show_list_header\' value=\'"+ name +"\' readonly>";
+    document.getElementById("list_td").appendChild(newDiv);
+    if(!show){ document.getElementById(str).style.display = "none"; }
 }
 
 function ClickedList(id){
