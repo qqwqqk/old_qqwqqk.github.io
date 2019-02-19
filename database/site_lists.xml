@@ -1,32 +1,42 @@
 <site_menu>
     <site_node>
         <id>0</id><name>Alchemy</name><color>#FE007F</color>
-        <image>images/navigation/Alchemy.jpg</image>
+        <image>images/navigation/Alchemy</image>
+        <image_show>images/navigation/Alchemy_show.jpg</image_show>
+        <image_list>images/navigation/Alchemy_list.jpg</image_list>
         <description>有好看的二次元小姐姐</description>
         <url>URL_Alchemy/Alchemy.html</url>
     </site_node>
     <site_node>
         <id>1</id><name>Fate</name><color>deepskyblue</color>
-        <image>images/navigation/Fate.jpg</image>
+        <image>images/navigation/Fate</image>
+        <image_show>images/navigation/Fate_show.jpg</image_show>
+        <image_list>images/navigation/Fate_list.jpg</image_list>
         <description>开启圣杯战争</description>
-        <url>https://qqwqqk.github.io/trip.github.io/</url>
+        <url>URL_Fate/Fate.html</url>
     </site_node>
     <site_node>
         <id>2</id><name>Glory</name><color>#FFC0CB</color>
-        <image>images/navigation/Glory.jpg</image>
+        <image>images/navigation/Glory</image>
+        <image_show>images/navigation/Glory_show.jpg</image_show>
+        <image_list>images/navigation/Glory_list.jpg</image_list>
         <description>全职不败荣耀不灭</description>
         <url>URL_Glory/Glory.html</url>
     </site_node>
     <site_node>
         <id>3</id><name>Vocaloid</name><color>antiquewhite</color>
-        <image>images/navigation/Vocaloid.jpg</image>
+        <image>images/navigation/Vocaloid</image>
+        <image_show>images/navigation/Vocaloid_show.jpg</image_show>
+        <image_list>images/navigation/Vocaloid_list.jpg</image_list>
         <description>天依正绫</description>
-        <url>https://qqwqqk.github.io/stk.github.io/</url>
+        <url>URL_Vocaloid/Vocaloid.html</url>
     </site_node>
     <site_node>
         <id>4</id><name>Walk</name><color>khaki</color>
-        <image>images/navigation/Walk.jpg</image>
+        <image>images/navigation/Walk</image>
+        <image_show>images/navigation/Walk_show.jpg</image_show>
+        <image_list>images/navigation/Walk_list.jpg</image_list>
         <description>迷域行者</description>
-        <url>https://qqwqqk.github.io/mmqu.github.io/</url>
+        <url>URL_Walk/Walk.html</url>
     </site_node>
 </site_menu>

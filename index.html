@@ -12,7 +12,7 @@
 <form id="base_show">
     <div id="windows">
         <div id="site_show">
-            <img id="site_show_image" alt="picture lost" class="">
+            <a id="site_show_link" href="" target="_blank"><img id="site_show_image" alt="picture lost" src=""></a>
         </div>
 
         <div id="informations">
@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div id="wind_info" class="user_link_show">
-                <textarea id="abstract" class="abstract_show" readonly></textarea><br/>
+                <textarea id="abstract" class="abstract_show"  readonly></textarea><br/>
                 <button type="button" id="enter" value="" onclick="Browse()"><b>Browse</b></button>
             </div>
         </div>
@@ -34,33 +34,7 @@
     <div id="list">
         <input type="hidden" id="list_star" value=""> <input type="hidden" id="list_length" value="">
         <table id="table_list">
-            <tr>
-                <td><button type="button" id="move_left" onclick="MoveLeft()"></button></td>
-                <td>
-                    <div class="show_list_box">
-                        <img title="" id="show_list_image1" alt="picture1" class="show_list_content" onclick="Clicked1()" >
-                        <input id="show_list_header1" class="show_list_header" value="" readonly>
-                    </div>
-                </td>
-                <td>
-                    <div class="show_list_box">
-                        <img title="" id="show_list_image2" alt="picture2" class="show_list_content" onclick="Clicked2()">
-                        <input id="show_list_header2" class="show_list_header" value="" readonly>
-                    </div>
-                </td>
-                <td>
-                    <div class="show_list_box">
-                        <img title="" id="show_list_image3" alt="picture2" class="show_list_content" onclick="Clicked3()">
-                        <input id="show_list_header3" class="show_list_header" value="" readonly>
-                    </div>
-                </td>
-                <td>
-                    <div class="show_list_box">
-                        <img title="" id="show_list_image4" alt="picture2" class="show_list_content" onclick="Clicked4()">
-                        <input id="show_list_header4" class="show_list_header" value="" readonly>
-                    </div>
-                </td>
-                <td><button type="button" id="move_right" onclick="MoveRight()"></button></td>
+            <tr id="tr">
             </tr>
         </table>
     </div>
