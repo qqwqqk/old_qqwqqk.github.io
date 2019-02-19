@@ -1,0 +1,51 @@
+<site_menu>
+    <site_node>
+        <volume>一</volume><number>1</number>
+        <URL>Comic.html?id=0001;name=walk</URL>
+    </site_node>
+
+    <site_node>
+        <volume>二</volume><number>2</number>
+        <URL>Comic.html?id=0002;name=walk</URL>
+    </site_node>
+
+    <site_node>
+        <volume>三</volume><number>3</number>
+        <URL>Comic.html?id=0003;name=walk</URL>
+    </site_node>
+
+    <site_node>
+        <volume>四</volume><number>4</number>
+        <URL>Comic.html?id=0004;name=walk</URL>
+    </site_node>
+
+    <site_node>
+        <volume>五</volume><number>5</number>
+        <URL>Comic.html?id=0005;name=walk</URL>
+    </site_node>
+
+    <site_node>
+        <volume>六</volume><number>6</number>
+        <URL>Comic.html?id=0006;name=walk</URL>
+    </site_node>
+
+    <site_node>
+        <volume>七</volume><number>7</number>
+        <URL>Comic.html?id=0007;name=walk</URL>
+    </site_node>
+
+    <site_node>
+        <volume>八</volume><number>8</number>
+        <URL>Comic.html?id=0008;name=walk</URL>
+    </site_node>
+
+    <site_node>
+        <volume>九</volume><number>9</number>
+        <URL>Comic.html?id=0009;name=walk</URL>
+    </site_node>
+
+    <site_node>
+        <volume>十</volume><number>10</number>
+        <URL>Comic.html?id=0010;name=walk</URL>
+    </site_node>
+</site_menu>

@@ -3,7 +3,7 @@
         <id>0</id>
         <volume>一</volume>
         <number>1</number>
-        <name>十五岁的夏天</name>>
+        <name>十五岁的夏天</name>
         <URL>Novel.html?id=0001;name=glory</URL>
     </site_node>
 
@@ -11,7 +11,7 @@
         <id>0</id>
         <volume>二</volume>
         <number>2</number>
-        <name>最初的朋友，一生的对手</name>>
+        <name>最初的朋友，一生的对手</name>
         <URL>Novel.html?id=0002;name=glory</URL>
     </site_node>
 
@@ -19,7 +19,7 @@
         <id>0</id>
         <volume>三</volume>
         <number>3</number>
-        <name>请君入瓮</name>>
+        <name>请君入瓮</name>
         <URL>Novel.html?id=0003;name=glory</URL>
     </site_node>
 
@@ -27,7 +27,7 @@
         <id>0</id>
         <volume>四</volume>
         <number>4</number>
-        <name>那时花开</name>>
+        <name>那时花开</name>
         <URL>Novel.html?id=0004;name=glory</URL>
     </site_node>
 
@@ -35,7 +35,7 @@
         <id>0</id>
         <volume>五</volume>
         <number>5</number>
-        <name>双核时代</name>>
+        <name>双核时代</name>
         <URL>Novel.html?id=0005;name=glory</URL>
     </site_node>
 
@@ -43,7 +43,7 @@
         <id>0</id>
         <volume>六</volume>
         <number>6</number>
-        <name>决战之时</name>>
+        <name>决战之时</name>
         <URL>Novel.html?id=0006;name=glory</URL>
     </site_node>
 
@@ -51,7 +51,7 @@
         <id>0</id>
         <volume>七</volume>
         <number>7</number>
-        <name>见证奇迹的时刻</name>>
+        <name>见证奇迹的时刻</name>
         <URL>Novel.html?id=0007;name=glory</URL>
     </site_node>
 
@@ -59,7 +59,7 @@
         <id>0</id>
         <volume>八</volume>
         <number>8</number>
-        <name>传承</name>>
+        <name>传承</name>
         <URL>Novel.html?id=0008;name=glory</URL>
     </site_node>
 
@@ -67,7 +67,7 @@
         <id>0</id>
         <volume>九</volume>
         <number>9</number>
-        <name>神话的开始</name>>
+        <name>神话的开始</name>
         <URL>Novel.html?id=0009;name=glory</URL>
     </site_node>
 
@@ -75,7 +75,7 @@
         <id>0</id>
         <volume>十</volume>
         <number>10</number>
-        <name>王朝与少年</name>>
+        <name>王朝与少年</name>
         <URL>Novel.html?id=0010;name=glory</URL>
     </site_node>
 </site_menu>

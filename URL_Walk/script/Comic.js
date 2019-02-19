@@ -28,15 +28,12 @@ function parseUrl(){
 //页面框架信息替换
 function UpFrame(id){
     if (window.XMLHttpRequest) { xmltitle = new XMLHttpRequest(); } else { xmltitle = new ActiveXObject("Microsoft.XMLHTTP"); }
-    xmltitle.open("GET", "xmls/glory.xml", false);
+    xmltitle.open("GET", "xmls/walk.xml", false);
     xmltitle.send();
     xmlTitle = xmltitle.responseXML;
     var sites = xmlTitle.getElementsByTagName("site_node");
-    var index = id - 1;
     var length = sites.length;
-
-    var title = "第" + id + "节  " + sites[index].getElementsByTagName("name")[0].childNodes[0].nodeValue;
-    //alert(title);
+    var title = "第" + id + "话";
 
     document.getElementsByTagName("title")[0].innerText = title;
     var newh1 = document.createElement("h1");
@@ -45,35 +42,33 @@ function UpFrame(id){
 
     if(id>1){
         var pre_value = id - 1;
-        var pre_title= sites[pre_value - 1].getElementsByTagName("name")[0].childNodes[0].nodeValue;
         var pre_url= sites[pre_value - 1].getElementsByTagName("URL")[0].childNodes[0].nodeValue;
 
-        AddHeaderlink(pre_url,pre_value,pre_title,0);
-        AddFooterlink(pre_url,pre_value,pre_title,0);
+        AddHeaderlink(pre_url,pre_value,0);
+        AddFooterlink(pre_url,pre_value,0);
     }
 
     if(id<length){
         var next_value = id + 1;
-        var next_title = sites[next_value - 1].getElementsByTagName("name")[0].childNodes[0].nodeValue;
         var next_url= sites[next_value - 1].getElementsByTagName("URL")[0].childNodes[0].nodeValue;
 
-        AddHeaderlink(next_url,next_value,next_title,1);
-        AddFooterlink(next_url,next_value,next_title,1);
+        AddHeaderlink(next_url,next_value,1);
+        AddFooterlink(next_url,next_value,1);
     }
 }
 
 //头部位置添加超连接
-function AddHeaderlink(url,value,title,tag) {
+function AddHeaderlink(url,value,tag) {
     var link = document.createElement("div");
-    link.innerHTML="<a href=\'" + url + "\' class=\'list_link\'>第"+ value +"节   "+ title +"</a>";
+    link.innerHTML="<a href=\'" + url + "\' class=\'list_link\'>第"+ value +"话</a>";
     if(!tag){ link.className="pre_link";} else{ link.className="next_link";}
     document.getElementById("header_link").appendChild(link);
 }
 
 //底部位置添加超连接
-function AddFooterlink(url,value,title,tag) {
+function AddFooterlink(url,value,tag) {
     var link = document.createElement("div");
-    link.innerHTML="<a href=\'" + url + "\' class=\'list_link\'>第"+ value +"节   "+ title +"</a>";
+    link.innerHTML="<a href=\'" + url + "\' class=\'list_link\'>第"+ value +"话</a>";
     if(!tag){ link.className="pre_link";} else{ link.className="next_link";}
     document.getElementById("footer_link").appendChild(link);
 }
@@ -85,7 +80,7 @@ function UpSection(url){
     xmlsection.open("GET", url, false);
     xmlsection.send();
     xmlSection = xmlsection.responseXML;
-    var sites = xmlSection.getElementsByTagName("p");
+    var sites = xmlSection.getElementsByTagName("url");
     var length = sites.length;
     //alert(length);
 
