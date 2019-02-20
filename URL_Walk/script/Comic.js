@@ -34,43 +34,39 @@ function UpFrame(id){
     var sites = xmlTitle.getElementsByTagName("site_node");
     var length = sites.length;
     var title = "第" + id + "话";
-
     document.getElementsByTagName("title")[0].innerText = title;
+
+    /*  添加标题信息
     var newh1 = document.createElement("h1");
     newh1.innerHTML= title ;
     document.getElementById("topic").appendChild(newh1);
+    */
 
-    if(id>1){
-        var pre_value = id - 1;
-        var pre_url= sites[pre_value - 1].getElementsByTagName("URL")[0].childNodes[0].nodeValue;
-
-        AddHeaderlink(pre_url,pre_value,0);
-        AddFooterlink(pre_url,pre_value,0);
-    }
-
-    if(id<length){
-        var next_value = id + 1;
-        var next_url= sites[next_value - 1].getElementsByTagName("URL")[0].childNodes[0].nodeValue;
-
-        AddHeaderlink(next_url,next_value,1);
-        AddFooterlink(next_url,next_value,1);
+    if(id<5){
+        for(var i=1;i<=9;i++){
+            var url_pre = sites[i - 1].getElementsByTagName("URL")[0].childNodes[0].nodeValue;
+            if(i==id){ AddFloatlink(url_pre,i,1);} else{ AddFloatlink(url_pre,i,0); }
+        }
+    }else if(length-id<5){
+        for(var j=length-8 ;j<=length;j++){
+            var url_next = sites[j - 1].getElementsByTagName("URL")[0].childNodes[0].nodeValue;
+            if(j==id){ AddFloatlink(url_next,j,1);} else{ AddFloatlink(url_next,j,0); }
+        }
+    }else{
+        for(var k=id-4 ;k<=id+4; k++){
+            var url = sites[k - 1].getElementsByTagName("URL")[0].childNodes[0].nodeValue;
+            if(k==id){ AddFloatlink(url,k,1);} else{ AddFloatlink(url,k,0); }
+        }
     }
 }
 
-//头部位置添加超连接
-function AddHeaderlink(url,value,tag) {
+//浮动位置添加目录信息
+function AddFloatlink(url,value,tag){
     var link = document.createElement("div");
-    link.innerHTML="<a href=\'" + url + "\' class=\'list_link\'>第"+ value +"话</a>";
-    if(!tag){ link.className="pre_link";} else{ link.className="next_link";}
-    document.getElementById("header_link").appendChild(link);
-}
-
-//底部位置添加超连接
-function AddFooterlink(url,value,tag) {
-    var link = document.createElement("div");
-    link.innerHTML="<a href=\'" + url + "\' class=\'list_link\'>第"+ value +"话</a>";
-    if(!tag){ link.className="pre_link";} else{ link.className="next_link";}
-    document.getElementById("footer_link").appendChild(link);
+    link.className="float_link";
+    if(!tag){ link.innerHTML="<a href=\'" + url + "\' class=\'list_link\'>第"+ value +"话</a>";}
+    else{ link.innerHTML="<a href=\'" + url + "\' class=\'current_link\'>第"+ value +"话</a>";}
+    document.getElementById("menu").appendChild(link);
 }
 
 //文本信息更新
@@ -93,7 +89,8 @@ function UpSection(url){
 
 //文本写入函数
 function AddSection(section){
-    var newDiv = document.createElement("p");
-    newDiv.innerHTML=section;
+    var newDiv = document.createElement("div");
+    newDiv.className = "show_img_box";
+    newDiv.innerHTML = "<img src=\'"+ section +"\' class=\'show_img_content\'>";
     document.getElementById("read_content").appendChild(newDiv);
 }
