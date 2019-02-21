@@ -5,9 +5,9 @@ body {height: 100%; background-color:lightgoldenrodyellow;background-repeat: no-
 #base_show{ background-color:transparent;width: 800px; height: 600px; margin: auto;}
 /* 阅读框架 */
 #read_show{ background-color:transparent;width: 800px; margin: auto;}
-#menu{ width: 120px; height: 360px; position:fixed; top:40%; margin-top: -120px; left: 20px;  background-color: transparent; border-radius: 10px; }
+#menu{ width: 120px; height: 360px; position:fixed; top:40%; margin-top: -120px; right: 20px;  background-color: transparent; border-radius: 10px; }
 #read_content{ width: 800px; margin-left: 20px; background-color: transparent; border-radius: 10px; }
-.show_img_box{ width: 700px; height: 980px; margin-left: 100px;}
+.show_img_box{ width: 700px; height: 980px; margin-right: 100px;}
 .show_img_content{width: 100%; height: 100%;}
 /* 题目内容 */
 #topic{ height: 60px; width:800px; text-align: center;}
