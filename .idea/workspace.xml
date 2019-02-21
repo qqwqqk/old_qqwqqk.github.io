@@ -2,98 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703f8c9e-145b-4e2f-a344-417eabc69a5f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/URL_Walk/xmls/walk0002.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/URL_Walk/xmls/walk0003.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/URL_Walk/xmls/walk0004.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/Comic.html" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Walk/Comic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/Walk.html" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Walk/Walk.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第10话/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第10话/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第10话/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第10话/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第10话/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第10话/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第10话/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第10话/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第1话/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第1话/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第1话/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第1话/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第1话/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第1话/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第1话/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第1话/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第1话/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第2话/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第2话/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第2话/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第2话/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第2话/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第2话/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第2话/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第2话/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第3话/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第3话/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第3话/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第3话/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第3话/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第3话/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第3话/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第3话/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第4话/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第4话/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第4话/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第4话/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第4话/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第4话/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第4话/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第5话/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第5话/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第5话/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第5话/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第5话/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第5话/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第5话/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第5话/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第6话/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第6话/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第6话/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第6话/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第6话/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第6话/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第6话/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第6话/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第7话/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第7话/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第7话/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第7话/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第7话/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第7话/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第7话/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第7话/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第8话/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第8话/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第8话/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第8话/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第8话/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第8话/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第8话/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第8话/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第9话/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第9话/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第9话/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第9话/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第9话/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第9话/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第9话/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/images/第9话/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/script/Comic.js" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Walk/script/Comic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/URL_Walk/style/Comic.css" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Walk/style/Comic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/style/walk.css" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Walk/style/walk.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/xmls/walk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Walk/xmls/walk.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/URL_Walk/xmls/walk0001.xml" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Walk/xmls/walk0001.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -107,8 +17,8 @@
       <file leaf-file-name="Walk.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URL_Walk/Walk.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+            <state relative-caret-position="308">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -116,8 +26,8 @@
       <file leaf-file-name="Comic.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URL_Walk/style/Comic.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="242">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -126,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/URL_Walk/script/walk.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -134,8 +44,8 @@
       <file leaf-file-name="Comic.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URL_Walk/script/Comic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="1078">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="n#!!block;n#parseUrl#0" />
               </folding>
@@ -208,8 +118,8 @@
         <option value="$PROJECT_DIR$/URL_Walk/xmls/walk.xml" />
         <option value="$PROJECT_DIR$/URL_Walk/Python/xmlwrite.py" />
         <option value="$PROJECT_DIR$/URL_Walk/xmls/walk0001.xml" />
-        <option value="$PROJECT_DIR$/URL_Walk/style/Comic.css" />
         <option value="$PROJECT_DIR$/URL_Walk/script/Comic.js" />
+        <option value="$PROJECT_DIR$/URL_Walk/style/Comic.css" />
       </list>
     </option>
   </component>
@@ -223,7 +133,7 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="E:\qqwqqk\GitHub\qqwqqk.github.io" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="293" />
     <option name="y" value="266" />
     <option name="width" value="779" />
@@ -333,18 +243,19 @@
       <workItem from="1547789800790" duration="4628000" />
       <workItem from="1550304102260" duration="17722000" />
       <workItem from="1550453480307" duration="35393000" />
-      <workItem from="1550627387754" duration="18280000" />
+      <workItem from="1550627387754" duration="18833000" />
+      <workItem from="1550711669398" duration="235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202518000" />
+    <option name="totallyTimeSpent" value="203071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1394" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1394" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17916042" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1814093" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -368,19 +279,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15442279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -462,17 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!block;n#InitListFull#0" />
-            <element signature="n#!!block;n#AddLists#0" />
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-            <element signature="n#!!block;n#MoveRight#0" />
-            <element signature="n#!!block;n#MoveLeft#0" />
-            <element signature="n#!!block;n#ChoiceShow#0" />
-            <element signature="n#!!block;n#Choice1#0" />
-            <element signature="n#!!block;n#Choice2#0" />
-            <element signature="n#!!block;n#Choice3#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,13 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="72" column="39" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="39" />
-          <folding>
-            <element signature="n#!!block;n#InitListFull#0" />
-            <element signature="n#!!block;n#AddMove#0" />
-            <element signature="n#!!block;n#ClickedList#0" />
-            <element signature="n#!!block;n#MoveRight#0" />
-            <element signature="n#!!block;n#MoveLeft#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,9 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,9 +533,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/jtjf/walk0002">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://F:/jtjf/walk0002" />
     <entry file="file://F:/jtjf/walk0003.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -683,31 +571,31 @@
     <entry file="file://$PROJECT_DIR$/URL_Walk/script/walk.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/URL_Walk/style/Comic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/URL_Walk/script/Comic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="1078">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="n#!!block;n#parseUrl#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/URL_Walk/style/Comic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/URL_Walk/Walk.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+        <state relative-caret-position="308">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
