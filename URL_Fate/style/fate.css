@@ -1,0 +1,19 @@
+body {height: 100%; background-color:lightgoldenrodyellow;background-repeat: no-repeat;background-attachment:fixed;background-size: cover;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+/* 顶部信息格式 */
+#header_css{width: 800px; height: 80px; margin: auto;}
+/* 基本框架 */
+#show_content{ background-color:transparent;width: 800px;height: 600px; margin: auto;}
+/*框架窗口*/
+#windows{ width: 800px; height: 450px; margin: auto;}
+#movie{ width: 500px; height: 282px; padding: 84px 0 84px 0; background-color: black; float:left; }
+#barrage{width: 300px; height: 450px; float:right; background-color: rgba(249,233,195,0.6);}
+/* 选择列表展示 */
+#list{ height: 140px; width:800px;}
+#table_list{height: 120px; width:760px;  margin-left:20px; margin-right: 20px; border:none;}
+.move_left{ height:120px; width:40px; outline: none; background:url("../../images/left.png"); border: none; margin-right: 8px; opacity: 0.8;}
+.move_right{ height:120px; width:40px; outline: none; background:url("../../images/right.png"); border: none; margin-left: 8px; opacity: 0.8;}
+.show_list_box{height:120px; width:140px; margin-left: 6px;  margin-right: 6px; float: left; border: 5px solid rgba(220,220,220,0.5); border-radius: 20px;background-color:ghostwhite; overflow:hidden;}
+.show_list_header{height:15%; width:100%; text-align: center; border: none; background-color: transparent;}
+.show_list_content{height:75%; width:100%; text-align: center; border: none;}
+/* 尾部信息格式 */
+#footer_css{ width: 800px; height: 80px; margin: auto;}
