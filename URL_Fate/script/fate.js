@@ -53,7 +53,7 @@ function AddLists(id, num, type, title, url, img, show){
     var str = 'listshow' + id;
     newDiv.id = str;
     newDiv.className = "show_list_box";
-    newDiv.innerHTML="<img id=\'listimg" + id +"\' title=\'"+ title +"\' alt=\'" + url + "\' src=\'"+ img +"\' class=\'show_list_content\' onclick=\'ClickedList("+ id +")\'><input id=\'listname" + id + "\' class=\'show_list_header\' value=\'"+ title +"["+ num +"]\' readonly>";
+    newDiv.innerHTML="<img id=\'listimg" + id +"\' title=\'"+ title +"\' alt=\'" + url + "\' src=\'"+ img +"\' class=\'show_list_content\' onclick=\'ClickedList("+ id +")\'><input id=\'listname" + id + "\' class=\'show_list_header\' value=\'"+ title +"\' readonly>";
     document.getElementById("list_td").appendChild(newDiv);
     if(!show){ document.getElementById(str).style.display = "none"; }
 }
