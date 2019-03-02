@@ -55,17 +55,6 @@ function InitListFull(list_count){
     return count;
 }
 
-function AddMove(tag){
-    var newDiv = document.createElement("td");
-    if(!tag){
-        newDiv.innerHTML="<button type=\'button\' class=\'move_left\' onclick=\'MoveLeft()\'></button>"
-    }
-    else{
-        newDiv.innerHTML="<button type=\'button\' class=\'move_right\' onclick=\'MoveRight()\'></button>"
-    }
-    document.getElementById("tr").appendChild(newDiv);
-}
-
 function AddLists(id, name, color, img, img_show, img_list, text, url, show){
     var newDiv = document.createElement("div");
     var str = 'listshow' + id;
