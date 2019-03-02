@@ -1,38 +1,38 @@
 <menu>
     <node>
         <id>01</id><type>video/mp4</type>
-        <title>最初之日</title>
-        <url>video/01.mp4</url>
-        <image>images/01.png</image>
+        <title>Believe</title>
+        <url>video/Believe_ED.mp4</url>
+        <image>images/Believe_s.jpg</image>
     </node>
     <node>
         <id>02</id><type>video/mp4</type>
-        <title>命运之夜</title>
-        <url>video/02.mp4</url>
-        <image>images/02.png</image>
+        <title>Brave Shine</title>
+        <url>video/BraveShine_OP.mp4</url>
+        <image>images/BraveShine_s.jpg</image>
     </node>
     <node>
         <id>03</id><type>video/mp4</type>
-        <title>开幕</title>
-        <url>video/03.mp4</url>
-        <image>images/03.png</image>
+        <title>Ideal White</title>
+        <url>video/IdealWhite_OP.mp4</url>
+        <image>images/IdealWhite_s.jpg</image>
     </node>
     <node>
         <id>04</id><type>video/mp4</type>
-        <title>最强的敌人</title>
-        <url>video/04.mp4</url>
-        <image>images/04.png</image>
+        <title>Last Stardust</title>
+        <url>video/LastStardust_MAD.mp4</url>
+        <image>images/LastStardust_s.jpg</image>
     </node>
     <node>
         <id>05</id><type>video/mp4</type>
-        <title>两个魔术师（前篇）</title>
-        <url>video/05.mp4</url>
-        <image>images/05.png</image>
+        <title>Ring Your Bell</title>
+        <url>video/RingYourBell_ED.mp4</url>
+        <image>images/RingYourBell_s.jpg</image>
     </node>
     <node>
         <id>06</id><type>video/mp4</type>
-        <title>两个魔术师（后篇）</title>
-        <url>video/06.mp4</url>
-        <image>images/06.png</image>
+        <title>This Illusion</title>
+        <url>video/ThisIllusion_ED.mp4</url>
+        <image>images/ThisIllusion_s.jpg</image>
     </node>
 </menu>

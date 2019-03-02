@@ -95,7 +95,7 @@ function ClickedList(id){
     player.src(info.alt);
 
     var str = info.src;
-    var src = str.replace(/.png/, ".jpg");
+    var src = str.replace(/_s.jpg/, "_p.jpg");
     player.poster(src);
     player.load();
 }
