@@ -1,22 +1,35 @@
-
-
-
 body {height: 100%; background-color:lightgoldenrodyellow;background-repeat: no-repeat;background-attachment:fixed;background-size: cover;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 /* 顶部信息格式 */
-#header_css{width: 800px; height: 80px; margin: auto;}
+#header_css{ width: 800px; height: 80px; margin: auto;}
+
 /* 基本框架 */
-#show_title{ background-color:orange; width: 500px; height: 100px; overflow:hidden;}
-#show_name{ background-color: transparent; height: 60px; width: 300px; margin: 20px 100px; text-align: center; font-size: 16px; border: none; outline: none;}
-#show_content{ background-color:transparent;width: 800px;height: 600px; margin: auto;}
-/*框架窗口*/
-/*#show_windows{ width: 800px; height: 450px; margin: auto;}*/
-.wind_s{ width: 500px; height: 500px;  border: none; outline: none; background-color: black; float:left; }
-.wind_f{width: 800px; height: 450px; border: none; outline: none;}
-.list_s{width: 300px; height: 500px; float:left; background-color: rgba(249,233,195,0.6);}
-.list_f{display: none;}
-/*播放列表控件*/
-.control_s{width:32px; height: 32px; background-color:white; float: left; display: block;}
-.control_h{width:32px; height: 32px; background-color:white; float: left; display: none;}
-.progress{width:400px; height: 32px; background-color:white; float: left; display: none;}
+#content_css{ background-color:transparent; width: 800px;height: 600px; margin: auto;}
+.float_css{ float: left;}
+/*展示部分*/
+#show_header{width: 500px; height: 100px; border: none; outline: none;}
+#show_windows{ width: 500px; height: 500px; border: none; outline: none; float:left;}
+#music_info{ border: none; outline: none;}
+#info_icon{ height: 80px; width: 80px; margin: 10px; float: left;}
+#music_name{ height: 32px; width: 360px; border: 0; padding: 4px 20px; outline: none; margin: 10px 0; background-color: transparent;}
+#show_img{ height: 320px; width: 320px; margin: 20px 70px; border-radius: 160px;}
+#show_info{ height: 360px; width: 460px; padding: 20px;}
+/*列表部分*/
+#list_header{width: 300px; height: 100px; border: none; outline: none;}
+#list_windows{ width: 300px; height: 500px; border: none; outline: none; float:left; background-color: rgba(249,233,195,0.6);}
+#list_info{ border: none; outline: none;}
+#list_icon{ height: 80px; width: 80px; margin: 10px; float: left;}
+#role_name{  height: 32px; width: 160px; border: 0; padding: 4px 20px; outline: none; margin: 10px 0; background-color: transparent;}
+.btn_css{ height: 32px; width: 32px; margin: 4px 6px; border: none; outline: none; background-image: url("../images/button/widescreen.png")}
+.btn_loop_css{ height: 32px; width: 32px; margin: 4px 6px; border: none; outline: none; background-image: url("../images/button/loop.png")}
+.btn_next_css{ height: 32px; width: 32px; margin: 4px 6px; border: none; outline: none; background-image: url("../images/button/nextfile.png")}
+.btn_pre_css{ height: 32px; width: 32px; margin: 4px 6px; border: none; outline: none; background-image: url("../images/button/prefile.png")}
+.btn_play_css{ height: 32px; width: 32px; margin: 4px 6px; border: none; outline: none; background-image: url("../images/button/play.png")}
+.btn_pause_css{ height: 32px; width: 32px; margin: 4px 6px; border: none; outline: none; background-image: url("../images/button/pause.png")}
+.btn_random_css{ height: 32px; width: 32px; margin: 4px 6px; border: none; outline: none; background-image: url("../images/button/random.png")}
+.btn_single_css{ height: 32px; width: 32px; margin: 4px 6px; border: none; outline: none; background-image: url("../images/button/single.png")}
+.btn_volume_css{ height: 32px; width: 32px; margin: 4px 6px; border: none; outline: none; background-image: url("../images/button/volume.png")}
+#list_show{height: 380px; width: 180px; padding: 10px;}
+.list_music{width: 120px; margin: 2px 30px; color: black;}
+.list_music_play{width: 120px; margin: 2px 30px; color: orange;}
 /* 尾部信息格式 */
 #footer_css{ width: 800px; height: 80px; margin: auto;}

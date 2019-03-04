@@ -10,15 +10,51 @@
 </head>
 <body>
 <header id="header_css"></header>
-<div id="show_content">
-    <div id="show_windows" class="wind_s">
-        <div id="show_title"> <input type="text" id="show_name" value="Vocaloid" readonly> </div>
-        <div id="music" ></div>
+<div id="content_css">
+    <div id="show_windows">
+        <div id="music_info">
+            <div id="show_header">
+                <div><img id="info_icon" src="images/icon/洛阳怀.jpg"></div>
+                <div>
+                    <div><input id="music_name" type="text" value="洛阳怀" readonly></div>
+                    <div><audio id="music" src="music/66CCFF/洛阳怀.mp3"></audio>进度条</div>
+                </div>
+            </div>
+            <div id="show_info">
+                <img id="show_img" src="images/show/洛阳怀.jpg">
+            </div>
+        </div>
     </div>
 
-    <div id="show_list" class="list_s">
-
+    <div id="list_windows">
+        <div id="list_info">
+            <div id="list_header">
+                <div><img id="list_icon" src="images/role/洛天依.jpg"></div>
+                <div>
+                    <div>
+                        <input id="role_name" type="text" value="洛水天依" readonly>
+                        <input id="current_player" type="hidden" value="" readonly>
+                        <input id="current_music" type="hidden" value="" readonly>
+                        <input id="current_loop" type="hidden" value="" readonly>
+                    </div>
+                    <div>
+                        <button type="button" class="btn_pre_css"></button>
+                        <button type="button" class="btn_play_css"></button>
+                        <button type="button" class="btn_next_css"></button>
+                        <button type="button" class="btn_single_css"></button>
+                    </div>
+                </div>
+            </div>
+            <div id="list_show">
+                <div class="list_music">test1</div>
+                <div class="list_music">test1</div>
+                <div class="list_music_play">test1</div>
+                <div class="list_music">test1</div>
+            </div>
+        </div>
     </div>
+
+
 </div>
 <footer id="footer_css"></footer>
 </body>
