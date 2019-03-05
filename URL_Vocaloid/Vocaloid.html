@@ -14,14 +14,27 @@
     <div id="show_windows">
         <div id="music_info">
             <div id="show_header">
-                <div><img id="info_icon" src="images/icon/洛阳怀.jpg"></div>
+                <div id="info_icon"><img id="show_icon" src=""></div>
                 <div>
-                    <div><input id="music_name" type="text" value="洛阳怀" readonly></div>
-                    <div><audio id="music" src="music/66CCFF/洛阳怀.mp3"></audio>进度条</div>
+                    <div id="info_name">
+                        <input id="music_name" type="text" value="" readonly>
+                        <button id="music_volume" type="button" onclick="ClickTest('volume')"></button>
+                    </div>
+                    <div id="progress">
+                        <audio id="music" src=""></audio>
+                        <div id="progress_site">
+                            <div id="progress_play"></div>
+                            <img id="progress_form" src="images/button/progress.png">
+                        </div>
+                    </div>
+                    <div id="info_time">
+                        <input type="text" class="music_time" value="00:00" readonly>
+                        <input type="text" class="music_time" value="03:00" readonly>
+                    </div>
                 </div>
             </div>
             <div id="show_info">
-                <img id="show_img" src="images/show/洛阳怀.jpg">
+                <img id="show_img" src="">
             </div>
         </div>
     </div>
@@ -38,18 +51,15 @@
                         <input id="current_loop" type="hidden" value="" readonly>
                     </div>
                     <div>
-                        <button type="button" class="btn_pre_css"></button>
-                        <button type="button" class="btn_play_css"></button>
-                        <button type="button" class="btn_next_css"></button>
-                        <button type="button" class="btn_single_css"></button>
+                        <button type="button" class="btn_pre_css" onclick="ClickTest('pre')"></button>
+                        <button type="button" class="btn_play_css" onclick="ClickTest('play')"></button>
+                        <button type="button" class="btn_next_css" onclick="ClickTest('next')"></button>
+                        <button type="button" class="btn_single_css" onclick="ClickTest('single')"></button>
                     </div>
                 </div>
             </div>
             <div id="list_show">
-                <div class="list_music">test1</div>
-                <div class="list_music">test1</div>
-                <div class="list_music_play">test1</div>
-                <div class="list_music">test1</div>
+
             </div>
         </div>
     </div>
