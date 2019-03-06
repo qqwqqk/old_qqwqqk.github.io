@@ -16,7 +16,7 @@ body {height: 100%; background-color:lightgoldenrodyellow;background-repeat: no-
 
 #progress{ height: 40px; width: 280px; margin: 5px 10px; float: left;}
 #progress_site{ position: absolute; height: 40px; width: 280px;}
-#progress_play{ position: absolute; width: 200px; height: 32px; margin: 4px 8px; border-radius: 16px; background-color:#66CCFF; z-index: 1;}
+#progress_play{ position: absolute; height: 32px; margin: 4px 8px; border-radius: 16px; background-color:#66CCFF; z-index: 1;}
 #progress_form{ position: absolute; width: 100%; height: 100%; z-index: 2;}
 
 #info_time{ height: 40px; width: 100px; padding:5px 0; float: left;}

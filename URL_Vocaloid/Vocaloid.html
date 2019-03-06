@@ -21,20 +21,21 @@
                         <button id="music_volume" type="button" onclick="ClickTest('volume')"></button>
                     </div>
                     <div id="progress">
-                        <audio id="music" src=""></audio>
+                        <audio id="music" src="" loop="true"></audio>
                         <div id="progress_site">
                             <div id="progress_play"></div>
                             <img id="progress_form" src="images/button/progress.png">
                         </div>
                     </div>
                     <div id="info_time">
-                        <input type="text" class="music_time" value="00:00" readonly>
-                        <input type="text" class="music_time" value="03:00" readonly>
+                        <input id="show_current_time" type="text" class="music_time" value="00:00" readonly>
+                        <input id="show_count_time" type="text" class="music_time" value="00:00" readonly>
                     </div>
                 </div>
             </div>
             <div id="show_info">
                 <img id="show_img" src="">
+                <input id="img_rotate" type="hidden" value="0" readonly>
             </div>
         </div>
     </div>
@@ -49,12 +50,13 @@
                         <input id="current_player" type="hidden" value="" readonly>
                         <input id="current_music" type="hidden" value="" readonly>
                         <input id="current_loop" type="hidden" value="" readonly>
+                        <input id="count_music" type="hidden" value="" readonly>
                     </div>
                     <div>
-                        <button type="button" class="btn_pre_css" onclick="ClickTest('pre')"></button>
-                        <button type="button" class="btn_play_css" onclick="ClickTest('play')"></button>
-                        <button type="button" class="btn_next_css" onclick="ClickTest('next')"></button>
-                        <button type="button" class="btn_single_css" onclick="ClickTest('single')"></button>
+                        <button id="btn_pre" type="button" class="btn_pre_css" onclick="ClickTest('pre')"></button>
+                        <button id="btn_play" type="button" class="btn_play_css" onclick="ClickedPlay()"></button>
+                        <button id="btn_next" type="button" class="btn_next_css" onclick="ClickTest('next')"></button>
+                        <button id="btn_loop" type="button" class="btn_single_css" onclick="ClickedLoop()"></button>
                     </div>
                 </div>
             </div>
