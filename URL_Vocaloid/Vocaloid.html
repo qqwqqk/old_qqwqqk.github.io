@@ -28,8 +28,7 @@
                         </div>
                     </div>
                     <div id="info_time">
-                        <input id="show_current_time" type="text" class="music_time" value="00:00" readonly>
-                        <input id="show_count_time" type="text" class="music_time" value="00:00" readonly>
+                        <input id="show_current_time" type="text" class="music_time" value="0:0 / 0:0" readonly>
                     </div>
                 </div>
             </div>
@@ -53,9 +52,9 @@
                         <input id="count_music" type="hidden" value="" readonly>
                     </div>
                     <div>
-                        <button id="btn_pre" type="button" class="btn_pre_css" onclick="ClickTest('pre')"></button>
+                        <button id="btn_pre" type="button" class="btn_pre_css" onclick="ClickedPre()"></button>
                         <button id="btn_play" type="button" class="btn_play_css" onclick="ClickedPlay()"></button>
-                        <button id="btn_next" type="button" class="btn_next_css" onclick="ClickTest('next')"></button>
+                        <button id="btn_next" type="button" class="btn_next_css" onclick="ClickedNext()"></button>
                         <button id="btn_loop" type="button" class="btn_single_css" onclick="ClickedLoop()"></button>
                     </div>
                 </div>

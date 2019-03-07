@@ -20,7 +20,7 @@ function InitListFull(role){
     xmlhttp.send();
     xmlDoc = xmlhttp.responseXML;
     var sites = xmlDoc.getElementsByTagName("music");
-    document.getElementById("count_music").value = sites.value;
+    document.getElementById("count_music").value = sites.length;
 
     for(var i=0; i<sites.length; i++){
         var id = i;
@@ -51,13 +51,11 @@ function AddLists(id, name, icon, img, url){
 
 //单击歌单文件
 function ClickedList(id, name, icon, img, url){
-    var c_player = document.getElementById("current_player");
     var c_music = document.getElementById("current_music");
-    var btn_player = document.getElementById("btn_play");
+    var c_player = document.getElementById("current_player");
     var rotate_deg = document.getElementById('img_rotate');
 
-    btn_player.className = "btn_play_css";
-    c_player.value = 0;
+    c_music.currentTime = 0;
     rotate_deg.value = 0;
 
     if(parseInt(id) === parseInt(c_music.value)){ }else{
@@ -80,8 +78,10 @@ function ClickedList(id, name, icon, img, url){
     s_img.src = img;
     music.src = url;
 
-    ImgStop();
     s_img.style.transform="rotate(0deg)";
+    if(parseInt(c_player.value) === 1){
+        music.play();
+    }
 }
 
 //单击播放按键
@@ -90,10 +90,6 @@ function ClickedPlay(){
     var btn_player = document.getElementById("btn_play");
     var music = document.getElementById("music");
     var c_loop = document.getElementById("current_loop");
-    var c_music = parseInt(document.getElementById("current_music").value);
-    var length = parseInt(document.getElementById("count_music").value);
-    var temp = null;
-    var str = null;
 
     if(parseInt(c_player.value)){
         //c_player = 1 当前为播放状态  转为暂停
@@ -108,27 +104,31 @@ function ClickedPlay(){
         btn_player.className = "btn_pause_css";
         music.play();
         ImgRotate("show_img");
-        ProgressUpdata();
+        ProgressUp();
     }
 
-    if(parseInt(c_loop.value)===1){
-        //列表循环
-        music.addEventListener('ended',function () {
+    music.addEventListener('ended',function () {
+        var c_music = parseInt(document.getElementById("current_music").value);
+        var length = parseInt(document.getElementById("count_music").value);
+        var temp = null;
+        var str = null;
+
+        if(parseInt(c_loop.value)===0){
+            str = "listshow" + c_music;
+            //console.log("单曲循环:" + str);
+        }else if(parseInt(c_loop.value)===1){
             temp = c_music + 1;
             if(temp === length){ temp = 0; }
             str = "listshow" + temp;
-            document.getElementById(str).onclick();
-            c_player.onclick();
-        })
-    }else{
-        //随机循环
-        music.addEventListener('ended',function () {
-            temp = Math.floor(Math.random() * (length + 1));
+            //console.log("列表循环:" + str);
+        } else{
+            temp = parseInt(Math.random() * length);
             str = "listshow" + temp;
-            document.getElementById(str).onclick();
-            c_player.onclick();
-        })
-    }
+            //console.log("随机循环:" + str);
+        }
+        document.getElementById(str).onclick();
+    })
+
 }
 
 //图片自动旋转
@@ -147,25 +147,25 @@ function ImgStop() {
     clearInterval(rotate_timer);
 }
 //进度条自动更新
-function ProgressUpdata(){
+function ProgressUp(){
     var music = document.getElementById("music");
     var c_time = document.getElementById("show_current_time");
-    var l_time = document.getElementById("show_count_time");
     var progress = document.getElementById('progress_play');
 
     var current = null;
     var temp = null, min=null, sec=null;
     var c_str = null;
+    var f_str = null;
+    var length = null;
     var pro_width = null;
-    var length = music.duration;
-
-    temp = parseInt(length);
-    min = parseInt(temp / 60);
-    sec = parseInt(temp % 60);
-    c_str = min + ":" + sec;
-    l_time.value = c_str;
 
     progress_timer = setInterval(function(){
+        length = music.duration;
+        temp = parseInt(length);
+        min = parseInt(temp / 60);
+        sec = parseInt(temp % 60);
+        f_str = min + ":" + sec;
+
         current = music.currentTime;
         pro_width = parseFloat(current/length) * 268 + "px";
         //console.log("progress width" + pro_width);
@@ -174,7 +174,7 @@ function ProgressUpdata(){
         temp = parseInt(current);
         min = parseInt(temp / 60);
         sec = parseInt(temp % 60);
-        c_str = min + ":" + sec;
+        c_str = min + ":" + sec + " / " + f_str;
         c_time.value = c_str;
 
     },50);
@@ -208,6 +208,26 @@ function ClickedLoop() {
         c_loop.value = 0;
         btn_loop.className = "btn_single_css";
     }
+}
+
+function ClickedPre(){
+    var c_music = parseInt(document.getElementById("current_music").value);
+    var length = parseInt(document.getElementById("count_music").value);
+
+    var temp = c_music - 1;
+    if(temp < 0){ temp = length - 1; }
+    var str = "listshow" + temp;
+    document.getElementById(str).onclick();
+}
+
+function ClickedNext() {
+    var c_music = parseInt(document.getElementById("current_music").value);
+    var length = parseInt(document.getElementById("count_music").value);
+
+    var temp = c_music + 1;
+    if(temp === length){ temp = 0; }
+    var str = "listshow" + temp;
+    document.getElementById(str).onclick();
 }
 
 //打开新的窗口进行浏览
