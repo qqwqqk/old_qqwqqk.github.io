@@ -96,14 +96,12 @@ function ClickedPlay(){
         c_player.value = 0;
         btn_player.className = "btn_play_css";
         music.pause();
-        ImgStop();
         ProgressPause();
     }else{
         //c_player = 0 当前为暂停状态  转为播放
         c_player.value = 1;
         btn_player.className = "btn_pause_css";
         music.play();
-        ImgRotate("show_img");
         ProgressUp();
     }
 
@@ -131,26 +129,13 @@ function ClickedPlay(){
 
 }
 
-//图片自动旋转
-function ImgRotate(id){
-    var image = document.getElementById(id);
-    var deg = document.getElementById('img_rotate');
-    rotate_timer = setInterval(function(){
-        image.style.transform="rotate("+deg.value+"deg)";
-        deg.value = parseInt(deg.value) + 1;
-        if(parseInt(deg.value) > 360){
-            deg.value = 0;
-        }
-    },20);
-}
-function ImgStop() {
-    clearInterval(rotate_timer);
-}
-//进度条自动更新
+//进度条自动更新 与 图像旋转
 function ProgressUp(){
     var music = document.getElementById("music");
     var c_time = document.getElementById("show_current_time");
     var progress = document.getElementById('progress_play');
+    var image = document.getElementById("show_img");
+    var deg = document.getElementById('img_rotate');
 
     var current = null;
     var temp = null, min=null, sec=null;
@@ -167,7 +152,7 @@ function ProgressUp(){
         f_str = min + ":" + sec;
 
         current = music.currentTime;
-        pro_width = parseFloat(current/length) * 268 + "px";
+        pro_width = parseFloat(current/length) * 264 + "px";
         //console.log("progress width" + pro_width);
         progress.style.width = pro_width;
 
@@ -177,11 +162,38 @@ function ProgressUp(){
         c_str = min + ":" + sec + " / " + f_str;
         c_time.value = c_str;
 
-    },50);
+        image.style.transform="rotate("+deg.value+"deg)";
+        deg.value = parseInt(deg.value) + 1;
+        if(parseInt(deg.value) > 360){
+            deg.value = 0;
+        }
+    },20);
 
 }
 function ProgressPause(){
     clearInterval(progress_timer);
+}
+
+//通过进度条控制播放进度
+function ProgressContral(event) {
+    var music = document.getElementById("music");
+    var c_player = document.getElementById("current_player");
+    var obj = document.getElementById("progress_site");
+    var progress = document.getElementById('progress_play');
+    var obj_left = obj.offsetLeft;
+    var ex = event.clientX + document.body.scrollLeft;
+    var length = ex - obj_left - 8;
+    console.log("length:"+ length );        //单击的进度条相对长度
+
+    progress.style.width = "" + length +"px";
+
+    var count_time = music.duration;
+    var current_time = count_time * length / 264;
+    music.currentTime = "" + current_time +"";
+
+    if(parseInt(c_player.value)===1){
+        music.play();
+    }
 }
 
 //循环方式

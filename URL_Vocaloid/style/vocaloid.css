@@ -11,7 +11,7 @@ body {height: 100%; background-color:lightgoldenrodyellow;background-repeat: no-
 #music_info{ border: none; outline: none;}
 #info_icon{ height: 80px; width: 80px; margin: 10px; float: left;}
 #info_name{ height: 32px; width: 360px; border: 0; padding: 4px 20px; margin: 5px 0; background-color: transparent; float: left;}
-#music_name{ height: 32px; width: 320px; border: 0; outline: none; float: left; background-color: transparent;}
+#music_name{ height: 32px; width: 280px; border: 0; outline: none; float: left; background-color: transparent;}
 #music_volume{ height: 32px; width: 32px; margin: 4px; border: none; outline: none; background-image: url("../images/button/volume.png")}
 
 #progress{ height: 40px; width: 280px; margin: 5px 10px; float: left;}

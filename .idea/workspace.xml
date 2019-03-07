@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703f8c9e-145b-4e2f-a344-417eabc69a5f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/URL_Vocaloid/Vocaloid.html" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Vocaloid/Vocaloid.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/URL_Vocaloid/script/vocaloid.js" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Vocaloid/script/vocaloid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/URL_Vocaloid/style/vocaloid.css" beforeDir="false" afterPath="$PROJECT_DIR$/URL_Vocaloid/style/vocaloid.css" afterDir="false" />
@@ -32,8 +33,8 @@
       <file leaf-file-name="Vocaloid.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/URL_Vocaloid/Vocaloid.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="80" lean-forward="true" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
+            <state relative-caret-position="154">
+              <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -41,16 +42,19 @@
       <file leaf-file-name="vocaloid.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URL_Vocaloid/script/vocaloid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="219" column="43" lean-forward="true" selection-start-line="219" selection-start-column="43" selection-end-line="219" selection-end-column="43" />
+            <state relative-caret-position="464">
+              <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
               <folding>
+                <element signature="e#126#419#0" />
+                <element signature="n#!!block;n#InitListFull#0" />
                 <element signature="n#!!block;n#AddLists#0" />
                 <element signature="n#!!block;n#ClickedList#0" />
-                <element signature="n#!!block;n#ImgRotate#0" />
-                <element signature="n#!!block;n#ImgStop#0" />
                 <element signature="n#!!block;n#ProgressUpdata#0" />
                 <element signature="n#!!block;n#ProgressPause#0" />
+                <element signature="n#!!block;n#f#0" />
                 <element signature="n#!!block;n#ClickedLoop#0" />
+                <element signature="n#!!block;n#ClickedPre#0" />
+                <element signature="n#!!block;n#f#0" />
                 <element signature="n#!!block;n#Browse#0" />
               </folding>
             </state>
@@ -60,8 +64,8 @@
       <file leaf-file-name="vocaloid.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/URL_Vocaloid/style/vocaloid.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="68">
+              <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -139,9 +143,9 @@
         <option value="$PROJECT_DIR$/URL_Fate/script/fate.js" />
         <option value="$PROJECT_DIR$/URL_Fate/style/fate.css" />
         <option value="$PROJECT_DIR$/URL_Vocaloid/xmls/66CCFF.xml" />
-        <option value="$PROJECT_DIR$/URL_Vocaloid/style/vocaloid.css" />
         <option value="$PROJECT_DIR$/URL_Vocaloid/Vocaloid.html" />
         <option value="$PROJECT_DIR$/URL_Vocaloid/script/vocaloid.js" />
+        <option value="$PROJECT_DIR$/URL_Vocaloid/style/vocaloid.css" />
       </list>
     </option>
   </component>
@@ -155,10 +159,10 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="E:\qqwqqk\GitHub\qqwqqk.github.io" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="342" />
-    <option name="y" value="37" />
-    <option name="width" value="879" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="525" />
+    <option name="y" value="53" />
+    <option name="width" value="860" />
     <option name="height" value="838" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -285,16 +289,15 @@
       <workItem from="1551675718273" duration="16604000" />
       <workItem from="1551745985603" duration="22179000" />
       <workItem from="1551830654379" duration="17211000" />
-      <workItem from="1551918538244" duration="6400000" />
+      <workItem from="1551918538244" duration="14140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354661000" />
+    <option name="totallyTimeSpent" value="362401000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1394" height="916" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1394" height="916" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15817091" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -346,7 +349,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -625,34 +628,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/URL_Vocaloid/style/vocaloid.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/URL_Vocaloid/script/vocaloid.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="219" column="43" lean-forward="true" selection-start-line="219" selection-start-column="43" selection-end-line="219" selection-end-column="43" />
+        <state relative-caret-position="464">
+          <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
           <folding>
+            <element signature="e#126#419#0" />
+            <element signature="n#!!block;n#InitListFull#0" />
             <element signature="n#!!block;n#AddLists#0" />
             <element signature="n#!!block;n#ClickedList#0" />
-            <element signature="n#!!block;n#ImgRotate#0" />
-            <element signature="n#!!block;n#ImgStop#0" />
             <element signature="n#!!block;n#ProgressUpdata#0" />
             <element signature="n#!!block;n#ProgressPause#0" />
+            <element signature="n#!!block;n#f#0" />
             <element signature="n#!!block;n#ClickedLoop#0" />
+            <element signature="n#!!block;n#ClickedPre#0" />
+            <element signature="n#!!block;n#f#0" />
             <element signature="n#!!block;n#Browse#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/URL_Vocaloid/style/vocaloid.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="66" lean-forward="true" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/URL_Vocaloid/Vocaloid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="80" lean-forward="true" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
+        <state relative-caret-position="154">
+          <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="69" selection-end-line="7" selection-end-column="69" />
         </state>
       </provider>
     </entry>
