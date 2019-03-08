@@ -1,5 +1,4 @@
 //一些全局变量
-var rotate_timer = null;           //旋转时间计时器
 var progress_timer = null;         //进度时间计时器
 
 window.onload = function(){
@@ -9,14 +8,14 @@ window.onload = function(){
     player.value = 0;
     music.value = 0;
     loop.value = 0;
-    var url="xmls/66CCFF.xml"
-    InitListFull(url);
+    InitListFull("66CCFF");
 }
 
 //页面初始设置
 function InitListFull(role){
+    var url="xmls/" + role + ".xml";
     if (window.XMLHttpRequest) { xmlhttp = new XMLHttpRequest(); } else { xmlhttp = new ActiveXObject("Microsoft.XMLHTTP"); }
-    xmlhttp.open("GET", role, false);
+    xmlhttp.open("GET", url, false);
     xmlhttp.send();
     xmlDoc = xmlhttp.responseXML;
     var sites = xmlDoc.getElementsByTagName("music");
@@ -77,6 +76,7 @@ function ClickedList(id, name, icon, img, url){
     s_icon.src = icon;
     s_img.src = img;
     music.src = url;
+    music.load();
 
     s_img.style.transform="rotate(0deg)";
     if(parseInt(c_player.value) === 1){
@@ -163,10 +163,8 @@ function ProgressUp(){
         c_time.value = c_str;
 
         image.style.transform="rotate("+deg.value+"deg)";
-        deg.value = parseInt(deg.value) + 1;
-        if(parseInt(deg.value) > 360){
-            deg.value = 0;
-        }
+        deg.value = parseInt(current * 60 % 360);
+
     },20);
 
 }
@@ -175,7 +173,7 @@ function ProgressPause(){
 }
 
 //通过进度条控制播放进度
-function ProgressContral(event) {
+function ProgressControl(event) {
     var music = document.getElementById("music");
     var c_player = document.getElementById("current_player");
     var obj = document.getElementById("progress_site");
@@ -183,7 +181,7 @@ function ProgressContral(event) {
     var obj_left = obj.offsetLeft;
     var ex = event.clientX + document.body.scrollLeft;
     var length = ex - obj_left - 8;
-    console.log("length:"+ length );        //单击的进度条相对长度
+    //console.log("length:"+ length );        //单击的进度条相对长度
 
     progress.style.width = "" + length +"px";
 
@@ -194,6 +192,46 @@ function ProgressContral(event) {
     if(parseInt(c_player.value)===1){
         music.play();
     }
+}
+
+//音量控制
+function ClickedVolume() {
+    var btn_volume = document.getElementById("music_volume");
+
+    var volume = parseInt(btn_volume.value);
+    if(volume > 0){
+        console.log("当前音量:" + volume);
+    }else{
+        console.log("当前静音:" + volume);
+    }
+}
+
+function VolumeControl(event){
+    var music = document.getElementById("music");
+    var c_volume = document.getElementById("music_volume");
+    var obj = document.getElementById("volume_site");
+    var volume_progress = document.getElementById('volume_play');
+    var obj_left = obj.offsetLeft;
+    var ex = event.clientX + document.body.scrollLeft;
+    var length = ex - obj_left - 40;
+
+    console.log("obj_left:" + obj_left );
+    console.log("ex:" + ex );
+
+    console.log("s_length:" + length );        //单击的进度条相对长度
+
+    if(parseInt(length)<5){
+        length = 0;
+    }else if(parseInt(length)>55){
+        length = 50;
+    }else{
+        length = length - 5;
+    }
+
+    console.log("c_length:" + length );        //单击的进度条相对长度
+
+    volume_progress.style.width = "" + length +"px";
+
 }
 
 //循环方式

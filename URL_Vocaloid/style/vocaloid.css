@@ -10,9 +10,15 @@ body {height: 100%; background-color:lightgoldenrodyellow;background-repeat: no-
 #show_windows{ width: 500px; height: 500px; border: none; outline: none; float:left;}
 #music_info{ border: none; outline: none;}
 #info_icon{ height: 80px; width: 80px; margin: 10px; float: left;}
-#info_name{ height: 32px; width: 360px; border: 0; padding: 4px 20px; margin: 5px 0; background-color: transparent; float: left;}
-#music_name{ height: 32px; width: 280px; border: 0; outline: none; float: left; background-color: transparent;}
-#music_volume{ height: 32px; width: 32px; margin: 4px; border: none; outline: none; background-image: url("../images/button/volume.png")}
+
+#info_name{ height: 32px; width: 280px; border: 0; padding: 4px 0; margin: 5px 0; background-color: transparent; float: left;}
+#music_name{ height: 32px; width: 240px; border: 0; margin: 0 20px; outline: none; float: left; background-color: transparent;}
+
+#volume{ height: 32px; width: 100px; border: 0; padding: 4px 0; margin: 5px 0; outline: none; float: left; }
+#volume_site{ position: absolute; height: 32px; width: 100px; border: 0; margin: 0; outline: none; float: left;}
+#music_volume{ position: absolute; height: 32px; width: 32px; margin: 0 4px; border: none; outline: none; background-image: url("../images/button/volume.png")}
+#volume_play{ position: absolute; left: 40px; width: 25px; height: 12px; margin: 10px 5px; border-radius: 1px; background-color:#66CCFF; z-index: 1;}
+#volume_form{ position: absolute; left: 40px; width: 60px; height: 32px; z-index: 2;}
 
 #progress{ height: 40px; width: 280px; margin: 5px 10px; float: left;}
 #progress_site{ position: absolute; height: 40px; width: 280px;}
