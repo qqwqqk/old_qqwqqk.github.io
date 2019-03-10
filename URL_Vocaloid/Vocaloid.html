@@ -21,9 +21,10 @@
                     </div>
                     <div id="volume">
                         <div id="volume_site">
-                            <button id="music_volume" type="button" onclick="ClickedVolume()" value="100"></button>
+                            <button id="music_volume" class="music_volume" type="button" onclick="ClickedVolume()" value="1"></button>
                             <div id="volume_play" ></div>
                             <img id="volume_form" src="images/button/volume_progress.png" onclick="VolumeControl(event)">
+                            <input id="volume_value" type="hidden" value="50" readonly>
                         </div>
                     </div>
                     <div id="progress">

@@ -197,41 +197,65 @@ function ProgressControl(event) {
 //音量控制
 function ClickedVolume() {
     var btn_volume = document.getElementById("music_volume");
+    var music = document.getElementById("music");
+    var val_volume = document.getElementById("volume_value");
+    var progress = document.getElementById('volume_play');
 
-    var volume = parseInt(btn_volume.value);
-    if(volume > 0){
-        console.log("当前音量:" + volume);
+    var volume = parseFloat(val_volume.value);
+
+    if(parseInt(btn_volume.value)){
+        //当前非静音状态  转换为静音
+        btn_volume.className = "music_mute";
+        btn_volume.value = 0;
+        music.volume = 0;
+        //console.log("test:" + 0 );
+        progress.style.width = "0px";
     }else{
-        console.log("当前静音:" + volume);
+        //当前静音状态  转换为非静音
+        btn_volume.className = "music_volume";
+        btn_volume.value = 1;
+        music.volume = volume / 100;
+        //console.log("volume:" + volume );
+        progress.style.width = "" + volume / 2 +"px";
     }
 }
 
 function VolumeControl(event){
+    var btn_volume = document.getElementById("music_volume");
     var music = document.getElementById("music");
-    var c_volume = document.getElementById("music_volume");
+    var val_volume = document.getElementById("volume_value");
+    var progress = document.getElementById('volume_play');
+
     var obj = document.getElementById("volume_site");
-    var volume_progress = document.getElementById('volume_play');
     var obj_left = obj.offsetLeft;
     var ex = event.clientX + document.body.scrollLeft;
     var length = ex - obj_left - 40;
 
-    console.log("obj_left:" + obj_left );
-    console.log("ex:" + ex );
-
-    console.log("s_length:" + length );        //单击的进度条相对长度
-
+    //console.log("s_length:" + length );        //单击的进度条相对长度
     if(parseInt(length)<5){
         length = 0;
+        btn_volume.className = "music_mute";
+        btn_volume.value = 0;
+        val_volume.value = 0;
+        music.volume = 0;
+        progress.style.width = "0px";
     }else if(parseInt(length)>55){
         length = 50;
+        btn_volume.className = "music_volume";
+        btn_volume.value = 1;
+        val_volume.value = 100;
+        music.volume = 1;
+        progress.style.width = "50px";
     }else{
         length = length - 5;
+        btn_volume.className = "music_volume";
+        btn_volume.value = 1;
+        val_volume.value = length * 2;
+        music.volume = length / 50;
+        progress.style.width = "" + length / 2 +"px";
     }
-
-    console.log("c_length:" + length );        //单击的进度条相对长度
-
-    volume_progress.style.width = "" + length +"px";
-
+    //console.log("c_length:" + length );        //单击的进度条相对长度
+    progress.style.width = "" + length +"px";
 }
 
 //循环方式
